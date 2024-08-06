@@ -1,8 +1,8 @@
 name: Fork & Edit 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "45 * * * *"
+ # schedule:
+ #   - cron: "45 * * * *"
   
 jobs:
   Fork-FLITER-list:
