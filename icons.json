@@ -1,0 +1,414 @@
+{
+  "name": "图标收集",
+  "description": "自用icon图标,144×144",
+  "icons": [
+    {
+      "name": "ALiYun",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/ALiYun.png"
+    },
+    {
+      "name": "AdBlock1",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/AdBlock1.png"
+    },
+    {
+      "name": "AppStore",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/AppStore.png"
+    },
+    {
+      "name": "Apple",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple.png"
+    },
+    {
+      "name": "Apple2",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple2.png"
+    },
+    {
+      "name": "AppleNews",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/AppleNews.png"
+    },
+    {
+      "name": "Apple_Arcade",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple_Arcade.png"
+    },
+    {
+      "name": "Apple_Books",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple_Books.png"
+    },
+    {
+      "name": "Apple_Classic",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple_Classic.png"
+    },
+    {
+      "name": "Apple_GameCenter",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple_GameCenter.png"
+    },
+    {
+      "name": "Apple_Home",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple_Home.png"
+    },
+    {
+      "name": "Apple_Safari",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple_Safari.png"
+    },
+    {
+      "name": "Apple_Wallet",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple_Wallet.png"
+    },
+    {
+      "name": "Apple_iCloud",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Apple_iCloud.png"
+    },
+    {
+      "name": "Azure",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Azure.png"
+    },
+    {
+      "name": "Bilibili1",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Bilibili1.png"
+    },
+    {
+      "name": "Bilibili2",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Bilibili2.png"
+    },
+    {
+      "name": "Bing",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Bing.png"
+    },
+    {
+      "name": "Boxjs",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Boxjs.png"
+    },
+    {
+      "name": "Cainiao",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Cainiao.png"
+    },
+    {
+      "name": "ChatGPT1",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/ChatGPT1.png"
+    },
+    {
+      "name": "ChatGPT2",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/ChatGPT2.png"
+    },
+    {
+      "name": "Disney",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Disney.png"
+    },
+    {
+      "name": "Feizhu",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Feizhu.png"
+    },
+    {
+      "name": "FileBall",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/FileBall.png"
+    },
+    {
+      "name": "GetSomeFries",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/GetSomeFries.png"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/GitHub.png"
+    },
+    {
+      "name": "Github",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Github.png"
+    },
+    {
+      "name": "Google",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Google.png"
+    },
+    {
+      "name": "GoogleDrive",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/GoogleDrive.png"
+    },
+    {
+      "name": "Himalaya",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Himalaya.png"
+    },
+    {
+      "name": "HuaHuoYueDu",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/HuaHuoYueDu.png"
+    },
+    {
+      "name": "ITHome",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/ITHome.png"
+    },
+    {
+      "name": "Infuse",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Infuse.png"
+    },
+    {
+      "name": "KuWoMusic",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/KuWoMusic.png"
+    },
+    {
+      "name": "Loon1",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Loon1.png"
+    },
+    {
+      "name": "Loon2",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Loon2.png"
+    },
+    {
+      "name": "Loon3",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Loon3.png"
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Microsoft.png"
+    },
+    {
+      "name": "Microsoft2",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Microsoft2.png"
+    },
+    {
+      "name": "Missevan",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Missevan.png"
+    },
+    {
+      "name": "MixueBingcheng",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/MixueBingcheng.png"
+    },
+    {
+      "name": "Music",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Music.png"
+    },
+    {
+      "name": "Nano",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Nano.png"
+    },
+    {
+      "name": "Netflix",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Netflix.png"
+    },
+    {
+      "name": "Netflix2",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Netflix2.png"
+    },
+    {
+      "name": "Nplayer",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Nplayer.png"
+    },
+    {
+      "name": "Office",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Office.png"
+    },
+    {
+      "name": "OneDrive",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/OneDrive.png"
+    },
+    {
+      "name": "QQMusic",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/QQMusic.png"
+    },
+    {
+      "name": "QQvideo",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/QQvideo.png"
+    },
+    {
+      "name": "Quantumult",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Quantumult.png"
+    },
+    {
+      "name": "Quantumult_X",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Quantumult_X.png"
+    },
+    {
+      "name": "Quark",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Quark.png"
+    },
+    {
+      "name": "Safari",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Safari.png"
+    },
+    {
+      "name": "Stash",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Stash.png"
+    },
+    {
+      "name": "SubStore",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/SubStore.png"
+    },
+    {
+      "name": "Surge",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Surge.png"
+    },
+    {
+      "name": "Tieba",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Tieba.png"
+    },
+    {
+      "name": "TopHub",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/TopHub.png"
+    },
+    {
+      "name": "VV",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/VV.png"
+    },
+    {
+      "name": "Walden",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Walden.png"
+    },
+    {
+      "name": "WeRead",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/WeRead.png"
+    },
+    {
+      "name": "Weibo",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Weibo.png"
+    },
+    {
+      "name": "Weibo1",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Weibo1.png"
+    },
+    {
+      "name": "Weibo2",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/Weibo2.png"
+    },
+    {
+      "name": "WeiboTalk",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/WeiboTalk.png"
+    },
+    {
+      "name": "XiangSeGuiGe",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/XiangSeGuiGe.png"
+    },
+    {
+      "name": "YouTubeMusic",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/YouTubeMusic.png"
+    },
+    {
+      "name": "YuanYue01",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/YuanYue01.png"
+    },
+    {
+      "name": "YuanYue02",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/YuanYue02.png"
+    },
+    {
+      "name": "YuanYue03",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/YuanYue03.png"
+    },
+    {
+      "name": "douban",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/douban.png"
+    },
+    {
+      "name": "douyu",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/douyu.png"
+    },
+    {
+      "name": "exchange",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/exchange.png"
+    },
+    {
+      "name": "huacloud",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/huacloud.png"
+    },
+    {
+      "name": "iBeta",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/iBeta.png"
+    },
+    {
+      "name": "iCloud",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/iCloud.png"
+    },
+    {
+      "name": "iFreeTime",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/iFreeTime.png"
+    },
+    {
+      "name": "iReadNote",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/iReadNote.png"
+    },
+    {
+      "name": "iRingo",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/iRingo.png"
+    },
+    {
+      "name": "icon",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/icon.png"
+    },
+    {
+      "name": "juzi",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/juzi.png"
+    },
+    {
+      "name": "meituan",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/meituan.png"
+    },
+    {
+      "name": "mnmy",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/mnmy.png"
+    },
+    {
+      "name": "oil",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/oil.png"
+    },
+    {
+      "name": "quanqiu1",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/quanqiu1.png"
+    },
+    {
+      "name": "quanqiu2",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/quanqiu2.png"
+    },
+    {
+      "name": "rsbd",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/rsbd.png"
+    },
+    {
+      "name": "shadowrocket",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/shadowrocket.png"
+    },
+    {
+      "name": "sheep",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/sheep.png"
+    },
+    {
+      "name": "smzdm",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/smzdm.png"
+    },
+    {
+      "name": "spotify",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/spotify.png"
+    },
+    {
+      "name": "steam",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/steam.png"
+    },
+    {
+      "name": "telegram",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/telegram.png"
+    },
+    {
+      "name": "twitter",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/twitter.png"
+    },
+    {
+      "name": "txvideo",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/txvideo.png"
+    },
+    {
+      "name": "xbox",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/xbox.png"
+    },
+    {
+      "name": "youtube",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/youtube.png"
+    },
+    {
+      "name": "youtube2",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/youtube2.png"
+    },
+    {
+      "name": "youtube3",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/youtube3.png"
+    },
+    {
+      "name": "youtube4",
+      "url": "https://raw.githubusercontent.com/axtyet/comet_scripts/main/Icons/youtube4.png"
+    }
+  ]
+}

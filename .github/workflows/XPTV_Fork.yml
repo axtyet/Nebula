@@ -1,0 +1,54 @@
+
+
+name: Fork XPTV Sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 * * * *"
+  
+jobs:
+  Fork-FLITER-list:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+    
+    steps: 
+    - name: Checkout target repository
+      uses: actions/checkout@v4.1.0
+      with:
+        repository: axtyet/comet_scripts
+        path: comet_scriptsla-repo
+
+######
+
+
+      # fork XPTV 
+    - name: Fork XPTV Source
+      run: |
+        mkdir -p comet_scripts-repo/XPTV
+        git clone -b main https://github.com/fangkuia/XPTV.git  mki_Tmp
+        cp -r mki_Tmp/* comet_scripts-repo/XPTV
+        rm -rf mki_Tmp  
+
+
+        
+
+      # 保存、推送   
+    - name: Add and Commits
+      run: |
+        cd comet_scripts-repo
+         if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add --all
+          git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git push origin HEAD
+        else
+          echo "No changes to commit."
+        fi
+
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2
