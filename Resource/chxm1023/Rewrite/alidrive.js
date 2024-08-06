@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(api|member)\.(aliyundrive|alipan)\.com\/(.+\/(users|activity|user\/get)|((business|apps)\/.+\/users|adrive\/.+\/user)) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/alidrive.js
+^https?:\/\/(api|member)\.(aliyundrive|alipan)\.com\/(.+\/(users|activity|user\/get)|((business|apps)\/.+\/users|adrive\/.+\/user)) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/alidrive.js
 
 [mitm]
 hostname = *.aliyundrive.com, *.alipan.com

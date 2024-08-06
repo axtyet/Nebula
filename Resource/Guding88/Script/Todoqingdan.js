@@ -3,7 +3,7 @@
 Todo清单：https://apps.apple.com/app/id1566997654
 
 [rewrite_local]
-^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/Todoqingdan.js
+^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/Todoqingdan.js
 
 [MITM]
 hostname = www.evestudio.cn

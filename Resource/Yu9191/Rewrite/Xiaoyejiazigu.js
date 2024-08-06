@@ -3,9 +3,9 @@
 time：2024-1-17
 
 [rewrite_local]
-^https:\/\/oneplay-api\.instadrum\.com\/drum\/(score|account|course\/user_behaviour|lesson\/add_process) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Xiaoyejiazigu.js
+^https:\/\/oneplay-api\.instadrum\.com\/drum\/(score|account|course\/user_behaviour|lesson\/add_process) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Xiaoyejiazigu.js
 
-^https:\/\/oneplay-api\.xiaoyezi\.com\/drum\/(score|account|course\/user_behaviour|lesson\/add_process) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Xiaoyejiazigu.js
+^https:\/\/oneplay-api\.xiaoyezi\.com\/drum\/(score|account|course\/user_behaviour|lesson\/add_process) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Xiaoyejiazigu.js
 
 [mitm]
 hostname = oneplay-api.instadrum.com， oneplay-api.xiaoyezi.com

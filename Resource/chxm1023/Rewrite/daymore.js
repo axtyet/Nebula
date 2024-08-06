@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.execute-api\.ap-northeast-2\.amazonaws\.com\/product\/apple\/receipt url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/daymore.js
+^https?:\/\/.*\.execute-api\.ap-northeast-2\.amazonaws\.com\/product\/apple\/receipt url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/daymore.js
 
 [mitm]
 hostname = *.execute-api.ap-northeast-2.amazonaws.com

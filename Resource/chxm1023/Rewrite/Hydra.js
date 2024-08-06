@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/creaceed\.com\/apis\/appstore\/verifyreceipt url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/Hydra.js
+^https?:\/\/creaceed\.com\/apis\/appstore\/verifyreceipt url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/Hydra.js
 
 [mitm]
 hostname = creaceed.com

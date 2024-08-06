@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-https://api.300624.com/v3/plan/feature-code/auth url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/wanxingmiaoying.js
+https://api.300624.com/v3/plan/feature-code/auth url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/wanxingmiaoying.js
 
 [mitm] 
 

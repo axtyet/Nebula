@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/appv2\.filmix\.com\.cn\/api\/v\d\/users url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/filmix.js
+^https?:\/\/appv2\.filmix\.com\.cn\/api\/v\d\/users url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/filmix.js
 
 [mitm]
 hostname = appv2.filmix.com.cn

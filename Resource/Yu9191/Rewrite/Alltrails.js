@@ -3,7 +3,7 @@ alltrails
 2023.12.13最新版
 
 [rewrite_local]
-https://api-v5.alltrails.com/api/alltrails/me? url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Alltrails.js
+https://api-v5.alltrails.com/api/alltrails/me? url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Alltrails.js
 
 [mitm]
 hostname = api-v5.alltrails.com

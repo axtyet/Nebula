@@ -5,7 +5,7 @@
 2023.12.21
 
 [rewrite_local]
-https://auth.production.metronautapp.cn/jwt/refresh/ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Zhiyinlv.js
+https://auth.production.metronautapp.cn/jwt/refresh/ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Zhiyinlv.js
 
 [mitm]
 hostname = auth.production.metronautapp.cn

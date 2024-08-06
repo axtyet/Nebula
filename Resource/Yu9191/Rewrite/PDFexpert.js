@@ -7,7 +7,7 @@
 
 
 [rewrite_local]
-^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/PDFexpert.js
+^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/PDFexpert.js
 
 
 [mitm]

@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^https:\/\/www\.1998xuexi\.com\/store-web\/(course\/getCurrCatalogue\.action|material\/getMaterialCateLog\.action|vip\/getMemberVipInfo\.action|vip\/getVipInfomationAll\.action) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/1998.js
+^https:\/\/www\.1998xuexi\.com\/store-web\/(course\/getCurrCatalogue\.action|material\/getMaterialCateLog\.action|vip\/getMemberVipInfo\.action|vip\/getVipInfomationAll\.action) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/1998.js
 
 [mitm]
 hostname = www.1998xuexi.com

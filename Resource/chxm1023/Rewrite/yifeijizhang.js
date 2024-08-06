@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/jz\.jarstones\.com\/api url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/yifeijizhang.js
+^https?:\/\/jz\.jarstones\.com\/api url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/yifeijizhang.js
 
 [mitm]
 hostname = jz.jarstones.com

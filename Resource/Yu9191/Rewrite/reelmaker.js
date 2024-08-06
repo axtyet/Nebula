@@ -3,7 +3,7 @@ reelmaker
 
 [rewrite_local]
 
-https:\/\/us-central1-imin-aa206\.cloudfunctions\.net\/(validateSubscription|checkIfUserVip) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/reelmaker.js
+https:\/\/us-central1-imin-aa206\.cloudfunctions\.net\/(validateSubscription|checkIfUserVip) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/reelmaker.js
 
 [mitm]
 hostname = us-central1-imin-aa206.cloudfunctions.net

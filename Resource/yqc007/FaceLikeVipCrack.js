@@ -10,7 +10,7 @@
 *******************************
 [rewrite_local]
 # > 趣拍解锁永久会员
-^https?:\/\/s\.mcwifi\.cn\/hw\/apple\/subscribe\/v1 url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/FaceLikeVipCrack.js
+^https?:\/\/s\.mcwifi\.cn\/hw\/apple\/subscribe\/v1 url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/FaceLikeVipCrack.js
 [mitm] 
 hostname = s.mcwifi.cn
 

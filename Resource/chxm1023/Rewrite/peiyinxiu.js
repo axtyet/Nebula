@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/iosapi\.peiyinxiu\.com url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/peiyinxiu.js
+^https:\/\/iosapi\.peiyinxiu\.com url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/peiyinxiu.js
 
 [mitm]
 hostname = iosapi.peiyinxiu.com

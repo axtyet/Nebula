@@ -3,8 +3,8 @@
 Thanks@PayNe@onz3v
 
 [rewrite_local]
-^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$ url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/ssHeader.js
-^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/user-profile\/$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/ssbody.js
+^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$ url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/ssHeader.js
+^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/user-profile\/$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/ssbody.js
 
 [mitm]
 hostname = *.x-storm.com

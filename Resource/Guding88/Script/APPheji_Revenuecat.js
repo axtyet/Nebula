@@ -6,8 +6,8 @@ TG群组：https://t.me/GudingChat
 Revenuecat解锁合集，已解锁APP及下载地址请见说明：https://github.com/Guding88/Script/blob/main/Readme.md
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/APPheji_Revenuecat.js
-//^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/APPheji_Revenuecat.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/APPheji_Revenuecat.js
+//^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/APPheji_Revenuecat.js
 
 [MITM]
 hostname = api.revenuecat.com
@@ -178,9 +178,12 @@ if (typeof $response == "undefined") {
     'nasctl':{ name: 'pro', id: 'nasctl_pro'},
     'Sleepo':{ name: 'pro', id: 'sleepo_premium_lifetime_free'},
     'Super%20AI%20Chat':{ name: 'premium', id: 'chatbot_v4_1999_1y'},
-    'PicSeedClient':{ name: 'pro', id: 'com.picseed.sub.pro.event.annual'},//PicSeed
+    //'PicSeedClient':{ name: 'Pro', id: 'com.picseed.sub.pro.event.annual'},//PicSeed
     'Free':{ name: 'pro', id: 'appspree_pro_lifetime'},//Appspree
     'PastePal':{ name: 'pro', id: 'com.onmyway133.PastePal.pro'},//PastePal
+    'XGBA':{ name: 'xGBA.pro', id: 'xGBA.lifetime.20240502'},
+    'memesoundboard':{ name: 'pro', id: 'lifetime_3499'},//Meme Soundboard, Effects: Deez
+    'gloriousYouth':{ name: 'gloriousYouth', id: 'gloriousYouth'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）

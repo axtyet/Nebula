@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.(hujuvod\.com|qwapp\.top)\/(user\/personal\/information|app\/drama\/page) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/renrenshipin.js
+^https?:\/\/api\.(hujuvod\.com|qwapp\.top)\/(user\/personal\/information|app\/drama\/page) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/renrenshipin.js
 
 [mitm]
 hostname = api.hujuvod.com, api.qwapp.top

@@ -5,6 +5,7 @@ HOST,a.wkanx.com,REJECT
 HOST,a0.app.xiaomi.com,REJECT
 HOST,aaid.uyunad.com,REJECT
 HOST,abema-adx.ameba.jp,REJECT
+HOST,abyss.cyapi.cn,REJECT
 HOST,acdn.adnxs.com,REJECT
 HOST,acs4baichuan.m.taobao.com,REJECT
 HOST,ad-analysis.pconline.com.cn,REJECT
@@ -109,6 +110,7 @@ HOST,adsebs.ximalaya.com,REJECT
 HOST,adserver.pandora.com,REJECT
 HOST,adservice.sigmob.cn,REJECT
 HOST,adservice.tohsoft.com,REJECT
+HOST,adserviceretry.kglink.cn,REJECT
 HOST,adserviceretry.kugou.com,REJECT
 HOST,adsfile.bssdlbig.kugou.com,REJECT
 HOST,adsfilebssdlbig.tx.kugou.com,REJECT
@@ -143,6 +145,7 @@ HOST,adx.yiche.com,REJECT
 HOST,adxlog.vivo.com.cn,REJECT
 HOST,afd.baidu.com,REJECT
 HOST,afdconf.baidu.com,REJECT
+HOST,affcpatrk.com,REJECT
 HOST,al.autohome.com.cn,REJECT
 HOST,als.baidu.com,REJECT
 HOST,amap-aos-info-nogw.amap.com,REJECT
@@ -176,6 +179,7 @@ HOST,badjs.weixinbridge.com,REJECT
 HOST,baichuan-sdk.alicdn.com,REJECT
 HOST,banners.itunes.apple.com,REJECT
 HOST,brahe.apptimize.com,REJECT
+HOST,browsercfg-drcn.cloud.dbankcloud.cn,REJECT
 HOST,business-cdn.shouji.sogou.com,REJECT
 HOST,c.bing.com,REJECT
 HOST,c.clarity.ms,REJECT
@@ -196,15 +200,19 @@ HOST,data-hoisin.coocaa.com,REJECT
 HOST,data.mistat.xiaomi.com,REJECT
 HOST,de.as.pptv.com,REJECT
 HOST,dflow.bz.mgtv.com,REJECT
+HOST,dig.bdurl.net,REJECT
 HOST,dispatcher.360in.com,REJECT
 HOST,dns.alidns.com,REJECT
 HOST,dns.jd.com,REJECT
+HOST,dns.weixin.qq.com.cn,REJECT
+HOST,dsp-x.jd.com,REJECT
 HOST,dsp.fcbox.com,REJECT
 HOST,dsp.toutiao.com,REJECT
 HOST,duclick.baidu.com,REJECT
 HOST,emma-414870e223.huodonghezi.com,REJECT
 HOST,ems.youku.com,REJECT
 HOST,encounter.bz.mgtv.com,REJECT
+HOST,et.tanx.com,REJECT
 HOST,etl.xlmc.sandai.net,REJECT
 HOST,exp.360in.com,REJECT
 HOST,fg.knlk2md.cn,REJECT
@@ -215,6 +223,7 @@ HOST,g.ousns.net,REJECT
 HOST,g1.163.com,REJECT
 HOST,g3.letv.com,REJECT
 HOST,galaxy.bjcathay.com,REJECT
+HOST,gdfp.gifshow.com,REJECT
 HOST,geo2.adobe.com,REJECT
 HOST,ggc.cmvideo.cn,REJECT
 HOST,ggic03.miguvideo.com,REJECT
@@ -268,6 +277,7 @@ HOST,is.snssdk.com,REJECT
 HOST,itad.linetv.tw,REJECT
 HOST,ivy.pchouse.com.cn,REJECT
 HOST,iyes.youku.com,REJECT
+HOST,janapi.jd.com,REJECT
 HOST,js-ad.a.yximgs.com,REJECT
 HOST,js.users.51.la,REJECT
 HOST,juggler.services.disqus.com,REJECT
@@ -297,6 +307,7 @@ HOST,mc.viglink.com,REJECT
 HOST,md-i-s.apptimize.com,REJECT
 HOST,mdrecv.app.cntvwb.cn,REJECT
 HOST,mediation.adnxs.com,REJECT
+HOST,mercury-gateway.ixiaochuan.cn,REJECT
 HOST,metrics-picture.d.meituan.net,REJECT
 HOST,miav-cse.avlyun.com,REJECT
 HOST,minfo.wps.cn,REJECT
@@ -366,6 +377,7 @@ HOST,saxn.sina.com.cn,REJECT
 HOST,saxs.sina.com.cn,REJECT
 HOST,sdapprecv.app.cntvwb.cn,REJECT
 HOST,sdk.51.la,REJECT
+HOST,sdk.e.qq.com,REJECT
 HOST,sdkconfig.ad.xiaomi.com,REJECT
 HOST,sin3-ib.adnxs.com,REJECT
 HOST,soul-ad.soulapp.cn,REJECT
@@ -414,6 +426,7 @@ HOST,www.clarity.ms,REJECT
 HOST,www.googleadservices.com,REJECT
 HOST,wxsnsdy.wxs.qq.com,REJECT
 HOST,wxsnsdythumb.wxs.qq.com,REJECT
+HOST,xlog.jd.com,REJECT
 HOST,yandexmetrica.com,REJECT
 HOST,yk-ssp.ad.youku.com,REJECT
 HOST,ykad-data.youku.com,REJECT
@@ -483,6 +496,7 @@ HOST-SUFFIX,189key.com,REJECT
 HOST-SUFFIX,189zj.cn,REJECT
 HOST-SUFFIX,1phads.com,REJECT
 HOST-SUFFIX,1rtb.com,REJECT
+HOST-SUFFIX,1rtb.net,REJECT
 HOST-SUFFIX,1xl.co.uk,REJECT
 HOST-SUFFIX,206ads.com,REJECT
 HOST-SUFFIX,22c.in,REJECT
@@ -653,6 +667,7 @@ HOST-SUFFIX,adtdp.com,REJECT
 HOST-SUFFIX,adthor.com,REJECT
 HOST-SUFFIX,adtongji.xyz,REJECT
 HOST-SUFFIX,adtrace.org,REJECT
+HOST-SUFFIX,adukwai.com,REJECT
 HOST-SUFFIX,advertising.com,REJECT
 HOST-SUFFIX,advertising.yahoo.com,REJECT
 HOST-SUFFIX,advp.apple.com,REJECT
@@ -1298,6 +1313,7 @@ HOST-SUFFIX,tns-counter.ru,REJECT
 HOST-SUFFIX,topitme.com,REJECT
 HOST-SUFFIX,tracking.miui.com,REJECT
 HOST-SUFFIX,trackingio.com,REJECT
+HOST-SUFFIX,tradplusad.com,REJECT
 HOST-SUFFIX,trafficforce.com,REJECT
 HOST-SUFFIX,traffichunt.com,REJECT
 HOST-SUFFIX,trafficjunky.net,REJECT
@@ -1327,6 +1343,7 @@ HOST-SUFFIX,tyrantdb.com,REJECT
 HOST-SUFFIX,u-ad.info,REJECT
 HOST-SUFFIX,u3.ucweb.com,REJECT
 HOST-SUFFIX,uberads.com,REJECT
+HOST-SUFFIX,ubixioe.com,REJECT
 HOST-SUFFIX,udrig.com,REJECT
 HOST-SUFFIX,uimserv.net,REJECT
 HOST-SUFFIX,ultraadserver.com,REJECT
@@ -1403,6 +1420,7 @@ HOST-SUFFIX,wuyicom.top,REJECT
 HOST-SUFFIX,wuzbhjpvsf.com,REJECT
 HOST-SUFFIX,www.govshenzhen.cn,REJECT
 HOST-SUFFIX,wx16999.com,REJECT
+HOST-SUFFIX,wxs.qq.com,REJECT
 HOST-SUFFIX,x2sfa.javgg.eu,REJECT
 HOST-SUFFIX,xapads.com,REJECT
 HOST-SUFFIX,xchmai.com,REJECT
@@ -1461,6 +1479,7 @@ HOST-SUFFIX,zhaozecheng.cn,REJECT
 HOST-SUFFIX,zhenxinet.com,REJECT
 HOST-SUFFIX,zhiziyun.com,REJECT
 HOST-SUFFIX,zhzzx.com,REJECT
+HOST-SUFFIX,zijieapi.com,REJECT
 HOST-SUFFIX,zlne800.com,REJECT
 HOST-SUFFIX,zmlled.cn,REJECT
 HOST-SUFFIX,zoomanalytics.co,REJECT

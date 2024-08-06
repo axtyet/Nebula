@@ -18,7 +18,7 @@
 [rewrite_local]
 
 # 健康视频解锁会员
-^https?:\/\/apiw\.9waquan\.com\/sw2\/.+ url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/JKSPCrack.js
+^https?:\/\/apiw\.9waquan\.com\/sw2\/.+ url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/JKSPCrack.js
 
 [mitm] 
 

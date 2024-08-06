@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > PornHub Unlock Premium By Hausd0rff
-^https?:\/\/cn\.pornhubpremium\.com\/ url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/PornHubPremiumCrack.js
+^https?:\/\/cn\.pornhubpremium\.com\/ url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/PornHubPremiumCrack.js
 
 [mitm] 
 hostname = cn.pornhubpremium.com

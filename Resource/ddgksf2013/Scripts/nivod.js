@@ -17,7 +17,7 @@
 
 [rewrite_local]
 
-^https?:\/\/.*nivod.*\/($|[0-9a-zA-Z=_/-]+\.html) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/Scripts/nivod.js
+^https?:\/\/.*nivod.*\/($|[0-9a-zA-Z=_/-]+\.html) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/Scripts/nivod.js
 
 [mitm]
 

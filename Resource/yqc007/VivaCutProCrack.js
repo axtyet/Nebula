@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > VivaCut解锁永久订阅
-^https?:\/\/medi\.dxzzy321\.top\/api\/rest\/commerce\/integrate\/vip\/perform$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/VivaCutProCrack.js
+^https?:\/\/medi\.dxzzy321\.top\/api\/rest\/commerce\/integrate\/vip\/perform$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/VivaCutProCrack.js
 
 [mitm] 
 hostname = medi.dxzzy321.top

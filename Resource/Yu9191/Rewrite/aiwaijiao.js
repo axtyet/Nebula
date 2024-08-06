@@ -3,7 +3,7 @@
 ai外教
 
 [rewrite_local]
-^https:\/\/(chatai\.qupeiyin\.com\/member\/index|www\.longstargpt\.com\/member\/index\/chatgpt\/chat\/sseV2) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/aiwaijiao.js
+^https:\/\/(chatai\.qupeiyin\.com\/member\/index|www\.longstargpt\.com\/member\/index\/chatgpt\/chat\/sseV2) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/aiwaijiao.js
 
 [mitm] 
 

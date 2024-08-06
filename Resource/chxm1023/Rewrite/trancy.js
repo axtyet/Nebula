@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.trancy\.org\/1\/user\/profile url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/trancy.js
+^https?:\/\/api\.trancy\.org\/1\/user\/profile url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/trancy.js
 
 [mitm]
 hostname = api.trancy.org

@@ -12,7 +12,7 @@
 
 (?<=vip=)false url 302 true
 
-https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/chatai.js
+https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/chatai.js
 
 [mitm] 
 

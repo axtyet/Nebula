@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.apphud\.com\/v1\/subscriptions url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/replica.js
+^https?:\/\/api\.apphud\.com\/v1\/subscriptions url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/replica.js
 
 [mitm]
 hostname = api.apphud.com

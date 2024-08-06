@@ -4,7 +4,7 @@
 
 [rewrite_local]
 #VIP
-https://jk.zlstw.com//jk/getUserDetails url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/yxjk.js
+https://jk.zlstw.com//jk/getUserDetails url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/yxjk.js
 
 [mitm]
 hostname = jk.zlstw.com

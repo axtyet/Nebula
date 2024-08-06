@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 极速扫描仪解锁永久会员
-^https?:\/\/scanner\.jianse\.tv\/api\/users url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/FScannerVipCrack.js
+^https?:\/\/scanner\.jianse\.tv\/api\/users url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/FScannerVipCrack.js
 
 [mitm] 
 hostname = scanner.jianse.tv

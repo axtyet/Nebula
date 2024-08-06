@@ -1,6 +1,68 @@
 {
   "releases": [
     {
+      "version": "0.19.10",
+      "tags": ["beta"],
+      "author": "@GideonSenku",
+      "msg": "fix(boxjs): 修复 /api/update 进行局部数据更新",
+      "notes": ["修复不存在 key 和 val 的情况"]
+    },
+    {
+      "version": "0.19.9",
+      "tags": ["beta"],
+      "author": "@GideonSenku",
+      "msg": "fix(boxjs): 修复 /api/update 进行局部数据更新",
+      "notes": []
+    },
+    {
+      "version": "0.19.8",
+      "tags": ["beta"],
+      "author": "@GideonSenku",
+      "msg": "fix(boxjs): 修复 /api/update 进行局部数据更新",
+      "notes": [
+        {
+          "name": "修复接口",
+          "descs": ["本次更新主要面向开发者"]
+        }
+      ]
+    },
+    {
+      "version": "0.19.7",
+      "tags": ["beta"],
+      "author": "@GideonSenku",
+      "msg": "feat(boxjs): 新增 /api/update 进行局部数据更新",
+      "notes": [
+        {
+          "name": "新增接口",
+          "descs": ["本次更新主要面向开发者"]
+        }
+      ]
+    },
+    {
+      "version": "0.19.6",
+      "tags": ["beta"],
+      "author": "@GideonSenku",
+      "msg": "fix(boxjs): 订阅缓存问题",
+      "notes": [
+        {
+          "name": "修复",
+          "descs": ["脏数据处理，部分订阅已经 404 或者 403，仅缓存有数据的订阅"]
+        }
+      ]
+    },
+    {
+      "version": "0.19.3",
+      "tags": ["beta"],
+      "author": "@GideonSenku",
+      "msg": "fix(boxjs): 首页拖拽数据问题",
+      "notes": [
+        {
+          "name": "修复",
+          "descs": ["首页拖拽数组数据中会出现 null"]
+        }
+      ]
+    },
+    {
       "version": "0.19.2",
       "tags": ["beta"],
       "author": "@chavyleung",

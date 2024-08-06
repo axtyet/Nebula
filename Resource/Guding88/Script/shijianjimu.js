@@ -3,7 +3,7 @@
 时间积木：https://apps.apple.com/app/id821381018
 
 [rewrite_local]
-^https?:\/\/box\.timeblocks\.com\/api\/inbox url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/shijianjimu.js
+^https?:\/\/box\.timeblocks\.com\/api\/inbox url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/shijianjimu.js
 
 [MITM]
 hostname = box.timeblocks.com

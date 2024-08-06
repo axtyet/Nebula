@@ -20,7 +20,7 @@
 **************************************
 
 [rewrite_local]
-http:\/\/.*\.dicallapp\.com url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/zhfqjt.js
+http:\/\/.*\.dicallapp\.com url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/zhfqjt.js
 
 [mitm]
 hostname = *.dicallapp.com

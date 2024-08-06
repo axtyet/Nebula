@@ -7,7 +7,7 @@
 
 [rewrite_local]
 
-^https:\/\/(www\.qker\.com\/qker2c\/v2\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/user\/details) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/qk.js
+^https:\/\/(www\.qker\.com\/qker2c\/v2\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/user\/details) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/qk.js
 
 
 [mitm]

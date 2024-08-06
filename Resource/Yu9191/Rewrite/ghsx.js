@@ -6,7 +6,7 @@
 
 [rewrite_local]
 
-^https:\/\/api2019\.jiheapp\.com\/v1\/(user\/info\/get|user\/course\/(check_material|section_list|detail)) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/ghsx.js
+^https:\/\/api2019\.jiheapp\.com\/v1\/(user\/info\/get|user\/course\/(check_material|section_list|detail)) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/ghsx.js
 
 [mitm]
 hostname = api2019.jiheapp.com

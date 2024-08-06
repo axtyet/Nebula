@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/snow.js
+^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/snow.js
 
 [mitm]
 hostname = user-snow-api.snow.me

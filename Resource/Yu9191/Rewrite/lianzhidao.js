@@ -6,7 +6,7 @@
 
 
 [rewrite_local]
-^http?:\/\/api\.lianzhidao123\.com\/v2\/account.*? url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/lianzhidao.js
+^http?:\/\/api\.lianzhidao123\.com\/v2\/account.*? url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/lianzhidao.js
 
 
 [mitm]

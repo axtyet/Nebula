@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.deepfaker\.app\/api\/.* url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/DeepFaker.js
+^https?:\/\/api\.deepfaker\.app\/api\/.* url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/DeepFaker.js
 
 [mitm]
 hostname = api.deepfaker.app

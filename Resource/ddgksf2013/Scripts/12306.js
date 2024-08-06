@@ -13,7 +13,7 @@
 
 [rewrite_local]
 
-^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/Scripts/12306.js
+^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/Scripts/12306.js
 
 [mitm]
 

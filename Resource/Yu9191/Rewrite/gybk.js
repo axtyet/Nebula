@@ -2,7 +2,7 @@
 光影边框
 
 [rewrite_local]
-https://prod.dengziwl.com/light-shadow/member/info url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/gybk.js
+https://prod.dengziwl.com/light-shadow/member/info url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/gybk.js
 
 [mitm]
 hostname = prod.dengziwl.com

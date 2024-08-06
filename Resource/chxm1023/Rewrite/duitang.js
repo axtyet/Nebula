@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^http[s]?:\/\/.*\.duitang\.com\/napi url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/duitang.js
+^http[s]?:\/\/.*\.duitang\.com\/napi url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/duitang.js
 
 [mitm] 
 hostname = *.duitang.com

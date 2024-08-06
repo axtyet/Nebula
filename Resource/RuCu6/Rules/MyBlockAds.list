@@ -1,4 +1,4 @@
-# 2024-07-04 08:50
+# 2024-08-03 08:30
 
 # ======= A ======= #
 # 阿里巴巴
@@ -45,6 +45,7 @@ IP-CIDR, 180.76.76.200/32, REJECT
 
 # ======= C ======= #
 # 彩云天气
+HOST, abyss.cyapi.cn, REJECT
 HOST, ad.cyapi.cn, REJECT
 # 昌原云充
 HOST, m.adyounger.com, REJECT
@@ -72,25 +73,36 @@ HOST, pageviewp.icbc.com.cn, REJECT
 HOST-SUFFIX, mall.icbc.com.cn, REJECT
 # 广告联盟
 HOST, ad.zijieapi.com, REJECT
+HOST, adapi.izuiyou.com, REJECT
 HOST, adtracker.adfunlink.com, REJECT
+HOST, dig.bdurl.net, REJECT
+HOST, dsp-x.jd.com, REJECT
+HOST, et.tanx.com, REJECT
+HOST, gdfp.gifshow.com, REJECT
 HOST, init.supersonicads.com, REJECT
 HOST, is.snssdk.com, REJECT
+HOST, janapi.jd.com, REJECT
+HOST, mercury-gateway.ixiaochuan.cn, REJECT
 HOST, open.e.kuaishou.com, REJECT
 HOST, open.kuaishou.com, REJECT
 HOST, pagead2.googlesyndication-cn.com, REJECT
 HOST, pagead2.googlesyndication.com, REJECT
+HOST, sdk.e.qq.com, REJECT
 HOST, ws.tapjoyads.com, REJECT
 HOST, www.googleadservices.com, REJECT
 HOST-SUFFIX, ads.linkedin.com, REJECT
 HOST-SUFFIX, ads.vungle.com, REJECT
 HOST-SUFFIX, adservice.google.com, REJECT
+HOST-SUFFIX, adukwai.com, REJECT
 HOST-SUFFIX, applovin.com, REJECT
 HOST-SUFFIX, applvn.com, REJECT
 HOST-SUFFIX, appsflyer.com, REJECT
 HOST-SUFFIX, appsflyersdk.com, REJECT
 HOST-SUFFIX, kuaishouzt.com, REJECT
 HOST-SUFFIX, miaozhen.com, REJECT
+HOST-SUFFIX, ubixioe.com, REJECT
 HOST-SUFFIX, unityads.unity3d.com, REJECT
+HOST-SUFFIX, zijieapi.com, REJECT
 HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
 HOST-KEYWORD, ads.g.doubleclick, REJECT
 HOST-KEYWORD, asiad.byteactivity, REJECT
@@ -118,6 +130,9 @@ IP6-CIDR, 2402:db40:5100:1011::5/128, REJECT
 HOST, api.liquidlink.cn, REJECT
 
 # ======= K ======= #
+# 酷狗音乐
+HOST, ads.service.kugou.com, REJECT
+HOST, adserviceretry.kugou.com, REJECT
 # 酷我音乐
 HOST, ad.tencentmusic.com, REJECT
 HOST, g.koowo.com, REJECT
@@ -156,6 +171,10 @@ HOST, adui.tg.meitu.com, REJECT
 HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
+
+# ======= Q ======= #
+# 其他
+HOST, affcpatrk.com, REJECT
 
 # ======= S ======= #
 # 什么值得买
@@ -200,12 +219,13 @@ HOST, iadmusicmat.music.126.net, REJECT
 HOST, iadmusicmatvideo.music.126.net, REJECT
 HOST, ipv4.music.163.com, REJECT
 HOST, ipv6.music.163.com, REJECT
-HOST-SUFFIX, 163jiasu.com, REJECT
 # 微博 开屏广告
 HOST, huodong.weibo.cn, REJECT
 HOST-SUFFIX, biz.weibo.com, REJECT
 # 微信
 HOST, badjs.weixinbridge.com, REJECT
+HOST, dns.weixin.qq.com.cn, REJECT
+HOST-SUFFIX, wxs.qq.com, REJECT
 
 # ======= X ======= #
 # 小米

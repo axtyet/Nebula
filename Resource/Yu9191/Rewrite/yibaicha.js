@@ -3,7 +3,7 @@
 解锁题库 以及会员观看权限
 
 [rewrite_local]
-https://api.ebaicha.com url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/yibaicha.js
+https://api.ebaicha.com url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/yibaicha.js
 
 [mitm]
 hostname = api.ebaicha.com

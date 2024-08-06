@@ -3,7 +3,7 @@
 收起来：https://apps.apple.com/app/id1669206548
 
 [rewrite_local]
-^https?:\/\/api\.shouqilai\.cn\/m\/receive\/account\/getAccountByToken url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/shouqilai.js
+^https?:\/\/api\.shouqilai\.cn\/m\/receive\/account\/getAccountByToken url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/shouqilai.js
 
 [MITM]
 hostname = api.shouqilai.cn

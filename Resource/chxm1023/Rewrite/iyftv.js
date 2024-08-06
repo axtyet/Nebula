@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.iyf\.tv\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/iyftv.js
+^https?:\/\/api\.iyf\.tv\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/iyftv.js
 
 [mitm]
 hostname = api.iyf.tv

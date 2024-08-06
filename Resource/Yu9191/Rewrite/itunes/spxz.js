@@ -7,7 +7,7 @@ id：com.xiaoqi.videoget.forever
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/itunes/spxz.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/itunes/spxz.js
 
 [mitm] 
 

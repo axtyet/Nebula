@@ -4,8 +4,8 @@ GTP4o
 
 [rewrite_local]
 
-https://nichousha.sjrjyffs.top/api/img/aiSketch url script-request-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/GTP4ohd.js
-https://nichousha.sjrjyffs.top/api/app/user/getCurrentInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/GTP4o.js
+https://nichousha.sjrjyffs.top/api/img/aiSketch url script-request-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/GTP4ohd.js
+https://nichousha.sjrjyffs.top/api/app/user/getCurrentInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/GTP4o.js
 
 [mitm]
 hostname = nichousha.sjrjyffs.top

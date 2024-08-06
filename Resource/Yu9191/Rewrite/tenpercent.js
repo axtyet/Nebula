@@ -2,7 +2,7 @@
 Ten Percent 7.0.1(美区)
 time：2023-12-24
 [rewrite_local]
-^https:\/\/api\.changecollective\.com\/api\/v3\/user url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/tenpercent.js
+^https:\/\/api\.changecollective\.com\/api\/v3\/user url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/tenpercent.js
 [mitm]
 hostname = api.changecollective.com
 */

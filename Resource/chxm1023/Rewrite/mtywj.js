@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/www\.skyjos\.cn url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/mtywj.js
+^https:\/\/www\.skyjos\.cn url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/mtywj.js
 
 [mitm]
 hostname = www.skyjos.cn

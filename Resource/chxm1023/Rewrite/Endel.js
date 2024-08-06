@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api-production\.endel\.io\/v\d\/call url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/Endel.js
+^https?:\/\/api-production\.endel\.io\/v\d\/call url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/Endel.js
 
 [mitm]
 hostname = api-production.endel.io

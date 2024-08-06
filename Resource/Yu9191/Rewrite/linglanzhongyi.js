@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https://user.linglan.com/api/personCenter/getMyUser url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/linglanzhongyi.js
+https://user.linglan.com/api/personCenter/getMyUser url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/linglanzhongyi.js
 
 
 [mitm]

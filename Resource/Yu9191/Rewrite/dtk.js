@@ -2,7 +2,7 @@
 q
 
 [rewrite_local]
-^https://admin\.dingtiku\.cn/app/(testinfo/listTestInfo|video/getVideoCourseDetails|testinfo/startTest|video/listVideoCourse|buy/getBuyDetails|user/getUserScore) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/dtk.js
+^https://admin\.dingtiku\.cn/app/(testinfo/listTestInfo|video/getVideoCourseDetails|testinfo/startTest|video/listVideoCourse|buy/getBuyDetails|user/getUserScore) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/dtk.js
 [mitm]
 hostname = admin.dingtiku.cn
 

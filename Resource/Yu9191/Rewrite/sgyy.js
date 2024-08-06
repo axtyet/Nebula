@@ -2,7 +2,7 @@
 傻瓜英语 2.0.51
 
 [rewrite_local]
-^https:\/\/sgyy\.easyenglish888\.com\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/sgyy.js
+^https:\/\/sgyy\.easyenglish888\.com\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/sgyy.js
 
 [mitm]
 hostname = sgyy.easyenglish888.com

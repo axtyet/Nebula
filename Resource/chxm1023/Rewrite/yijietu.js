@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/1jietu\.com\/apiv2\/(user|ad) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/yijietu.js
+^https?:\/\/1jietu\.com\/apiv2\/(user|ad) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/yijietu.js
 
 [mitm]
 hostname = 1jietu.com

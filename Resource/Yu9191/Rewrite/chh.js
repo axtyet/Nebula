@@ -6,7 +6,7 @@
 [rewrite_local]
 
 
-https:\/\/(xcxapi\.chuanghehui\.com\/app\/publicCourse\/detail|api\.chuanghehui\.com\/api\/cli\/member\/home|api\.chuanghehui\.com\/api\/cli\/post|api\.chuanghehui\.com\/api\/cli\/member\/my) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/chh.js
+https:\/\/(xcxapi\.chuanghehui\.com\/app\/publicCourse\/detail|api\.chuanghehui\.com\/api\/cli\/member\/home|api\.chuanghehui\.com\/api\/cli\/post|api\.chuanghehui\.com\/api\/cli\/member\/my) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/chh.js
 https://api.chuanghehui.com/api/cli/post url 302 https://t.me/chxm1023
 [mitm] 
 

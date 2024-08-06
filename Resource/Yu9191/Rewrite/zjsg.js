@@ -2,7 +2,7 @@
 指尖时光
 [rewrite_local]
 
-https://integral2.zhijiantime.com url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/zjsg.js
+https://integral2.zhijiantime.com url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/zjsg.js
 
 
 [mitm]

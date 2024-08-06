@@ -3,7 +3,7 @@
 NeckGo：https://apps.apple.com/app/id1660505668
 
 [rewrite_local]
-^https?:\/\/neckgo\.wedea\.cn\/neok\/api\/api\/getLoginInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/NeckGo.js
+^https?:\/\/neckgo\.wedea\.cn\/neok\/api\/api\/getLoginInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/NeckGo.js
 
 [MITM]
 hostname = neckgo.wedea.cn

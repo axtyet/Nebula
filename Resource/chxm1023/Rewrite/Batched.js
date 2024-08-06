@@ -8,7 +8,7 @@
 
 [rewrite_local]
 
-^https:\/\/api\.adapty\.io\/api\/.+\/sdk\/analytics\/profiles\/(.*?)\/ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/Batched.js
+^https:\/\/api\.adapty\.io\/api\/.+\/sdk\/analytics\/profiles\/(.*?)\/ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/Batched.js
 
 [mitm]
 

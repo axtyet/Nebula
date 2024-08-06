@@ -3,7 +3,7 @@
 2024.1.12
 
 [rewrite_local]
-^https:\/\/paper\.zjapp\.xyz\/api\/v1\/status\/list url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Shijuan100.js
+^https:\/\/paper\.zjapp\.xyz\/api\/v1\/status\/list url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Shijuan100.js
 
 [mitm]
 hostname = paper.zjapp.xyz

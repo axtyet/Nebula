@@ -17,7 +17,7 @@
 [rewrite_local]
   
 # > 挖财记账☆解锁会员权限（2024-03-29）@ddgksf2013
-^https?:\/\/jz\.wacaijizhang\.com\/api\/vipmember\/v\d\/index url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/MOYU/WaCaiJiZhangProCrack.js
+^https?:\/\/jz\.wacaijizhang\.com\/api\/vipmember\/v\d\/index url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/MOYU/WaCaiJiZhangProCrack.js
 
 
 [mitm] 

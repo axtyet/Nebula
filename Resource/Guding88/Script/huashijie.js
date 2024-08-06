@@ -3,7 +3,7 @@
 画世界：https://apps.apple.com/app/id1450111327
 
 [rewrite_local]
-^https?:\/\/app\.huashijie\.art\/api\/(user\/getPerson|level\/info) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/huashijie.js
+^https?:\/\/app\.huashijie\.art\/api\/(user\/getPerson|level\/info) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/huashijie.js
 
 [MITM]
 hostname = app.huashijie.art

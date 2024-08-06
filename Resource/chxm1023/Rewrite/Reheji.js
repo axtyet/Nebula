@@ -2,7 +2,7 @@
 
 项目名称：Revenuecat 系列解锁合集
 下载地址：https://too.st/CollectionsAPP
-更新日期：2024-07-11
+更新日期：2024-07-27
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -10,8 +10,8 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/Reheji.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/Reheji.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/Reheji.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/Reheji.js
 
 [mitm]
 hostname = api.revenuecat.com
@@ -44,6 +44,8 @@ const bundle = {
 
 //识别UA
 const list = {
+  'PhotoMapper': { name: 'premium', id: 'photomapper_lifetime_1.99', cm: 'sjb' },  //PhotoMapper-照片位置追改
+  'CallAnnie': { name: 'ai.animato.callannie.entitlement.pro0', id: 'ai.animato.callannie.proyearly1', cm: 'sja' },  //CallAnnie
   'OneMockup': { name: 'pro', id: 'online.ohwe.onescreen.Lifetime', cm: 'sja' },  //OneMockup-带壳截屏
   'DataCalc': { name: 'datacalc.pro', id: 'datacalc.yearly.12', cm: 'sja' },  //DataCalc-素材容量计算
   'moss-ios': { name: 'prouser', id: 'dpbox_yearly_68', cm: 'sja' },  //DPBOX-摄影机与电影参数参数查询

@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.weilaizhushou\.com\/base\/user\/vip\/getUserVip url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/shiguangxu.js
+^https:\/\/api\.weilaizhushou\.com\/base\/user\/vip\/getUserVip url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/shiguangxu.js
 
 [mitm]
 hostname = api.weilaizhushou.com

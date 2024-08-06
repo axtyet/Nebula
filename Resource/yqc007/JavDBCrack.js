@@ -15,7 +15,7 @@
 *******************************
 [rewrite_local]
 # > JavDB解锁会员
-^https?:\/\/.+\/api\/v1\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/JavDBCrack.js
+^https?:\/\/.+\/api\/v1\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/JavDBCrack.js
 
 [mitm] 
 hostname = shukego.com, yiliang8888.com, 91mingyang.com, mnter.com, f5bc.club

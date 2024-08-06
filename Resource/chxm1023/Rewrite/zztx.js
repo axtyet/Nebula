@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/www\.fuyoutech\.club\/magworld\/member\/status url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/zztx.js
+^https?:\/\/www\.fuyoutech\.club\/magworld\/member\/status url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/zztx.js
 
 [mitm]
 hostname = www.fuyoutech.club

@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # ～ Stay（2022-10-17）@ddgksf2013
-^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/Scripts/stay.js
+^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/Scripts/stay.js
 
 [mitm]
 

@@ -42,11 +42,11 @@ const uBOL_abortCurrentScript = function() {
 
 const scriptletGlobals = {}; // jshint ignore: line
 
-const argsList = [["addEventListener","AdBlock"],["onload","google_esf"],["atob","/documentEl[\\s\\S]*?_0x/"],["onload","adsCount"],["navigator.brave"],["document.getElementById","_0x"],["document.querySelector","_0x"],["jQuery","decodeURIComponent"],["document.write","sitejack"],["Math.floor","amazon"],["document.createElement","overview"],["$","google_ads_iframe_"],["onload","puHref"],["document.referrer","gmo_bb"],["document.write","LinkURL"],["document.currentScript","insertAdjacentHTML"],["jQuery","floatingAd"],["tag","Math.random"],["addEventListener","style.display"],["jmp","Math"],["document.getElementById","lists"],["__htapop"]];
+const argsList = [["onload","google_esf"],["onload","adsCount"],["navigator.brave"],["document.getElementById","_0x"],["document.querySelector","_0x"],["jQuery","decodeURIComponent"],["document.write","sitejack"],["Math.floor","amazon"],["document.createElement","overview"],["$","google_ads_iframe_"],["onload","puHref"],["document.referrer","gmo_bb"],["document.write","LinkURL"],["document.currentScript","insertAdjacentHTML"],["jQuery","floatingAd"],["tag","Math.random"],["addEventListener","style.display"],["jmp","Math"],["document.getElementById","lists"],["__htapop"]];
 
-const hostnamesMap = new Map([["bm.best-hit.tv",0],["h178.com",0],["qa.crefan.jp",1],["ssbsblg.blogspot.com",2],["blog-and-destroy.com",3],["musenboya.com",4],["kledgeb.blogspot.com",5],["connect.coron.tech",7],["akibablog.blog.jp",8],["blog.livedoor.jp",[8,9,16,19]],["erommd-street.com",10],["ac-illust.com",11],["photo-ac.com",11],["javple.com",12],["encount.press",13],["realsound.jp",13],["h1g.jp",13],["russianbeauties.jp",14],["agora-web.jp",15],["2chblog.jp",16],["yugioh-starlight.com",16],["kijomatomelog.com",16],["gundamlog.com",16],["doorblog.jp",16],["digital-thread.com",16],["livedoor.blog",16],["blog.jp",16],["majikichi.com",17],["xn--gmq92kd2rm1kx34a.com",18],["momoiroadult.com",20],["avgle.com",21]]);
+const hostnamesMap = new Map([["qa.crefan.jp",0],["blog-and-destroy.com",1],["musenboya.com",2],["kledgeb.blogspot.com",3],["connect.coron.tech",5],["akibablog.blog.jp",6],["blog.livedoor.jp",[6,7,14,17]],["erommd-street.com",8],["ac-illust.com",9],["photo-ac.com",9],["javple.com",10],["encount.press",11],["realsound.jp",11],["h1g.jp",11],["russianbeauties.jp",12],["agora-web.jp",13],["2chblog.jp",14],["yugioh-starlight.com",14],["kijomatomelog.com",14],["gundamlog.com",14],["doorblog.jp",14],["digital-thread.com",14],["livedoor.blog",14],["blog.jp",14],["majikichi.com",15],["xn--gmq92kd2rm1kx34a.com",16],["momoiroadult.com",18],["avgle.com",19]]);
 
-const entitiesMap = new Map([["manga1001",6],["javmix",18]]);
+const entitiesMap = new Map([["manga1001",4],["javmix",16]]);
 
 const exceptionsMap = new Map([]);
 
@@ -179,7 +179,7 @@ function runAtHtmlElementFn(fn) {
 function getExceptionToken() {
     const safe = safeSelf();
     const token =
-        String.fromCharCode(Date.now() % 26 + 97) +
+        safe.String_fromCharCode(Date.now() % 26 + 97) +
         safe.Math_floor(safe.Math_random() * 982451653 + 982451653).toString(36);
     const oe = self.onerror;
     self.onerror = function(msg, ...args) {
@@ -207,12 +207,14 @@ function safeSelf() {
         'Math_random': Math.random,
         'Object': Object,
         'Object_defineProperty': Object.defineProperty.bind(Object),
+        'Object_defineProperties': Object.defineProperties.bind(Object),
         'Object_fromEntries': Object.fromEntries.bind(Object),
         'Object_getOwnPropertyDescriptor': Object.getOwnPropertyDescriptor.bind(Object),
         'RegExp': self.RegExp,
         'RegExp_test': self.RegExp.prototype.test,
         'RegExp_exec': self.RegExp.prototype.exec,
         'Request_clone': self.Request.prototype.clone,
+        'String_fromCharCode': String.fromCharCode,
         'XMLHttpRequest': self.XMLHttpRequest,
         'addEventListener': self.EventTarget.prototype.addEventListener,
         'removeEventListener': self.EventTarget.prototype.removeEventListener,

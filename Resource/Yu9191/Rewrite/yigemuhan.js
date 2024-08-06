@@ -4,7 +4,7 @@
 [rewrite_local]
 
 
-https://uapi.woobx.cn/user/profile url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/yigemuhan.js
+https://uapi.woobx.cn/user/profile url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/yigemuhan.js
 
 [mitm] 
 

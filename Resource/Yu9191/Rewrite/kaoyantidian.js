@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-https://smallboard.cn/v1/CommodityVip/vipauthority url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/kaoyantidian.js
+https://smallboard.cn/v1/CommodityVip/vipauthority url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/kaoyantidian.js
 
 [mitm] 
 

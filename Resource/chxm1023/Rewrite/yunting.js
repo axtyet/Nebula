@@ -11,7 +11,7 @@
 **************************************
 
 [rewrite_local]
-(^https?:\/\/(ytmsout|ytapi|getway)\.radio\.cn|60\.205\.171\.165)\/(contentBiz|publish|rights|(user|ytsrv\/srv)\/(appUser|webPage)\/getUserInfo|app.+) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/yunting.js
+(^https?:\/\/(ytmsout|ytapi|getway)\.radio\.cn|60\.205\.171\.165)\/(contentBiz|publish|rights|(user|ytsrv\/srv)\/(appUser|webPage)\/getUserInfo|app.+) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/yunting.js
 
 [mitm]
 hostname = *.radio.cn, 60.205.171.165

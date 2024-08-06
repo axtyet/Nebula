@@ -4,7 +4,7 @@ SOOGIF工具永久会员
 #小程序://SOOGIF工具/eIA7y46MQcygBVo
 
 [rewrite_local]
-https://www.soogif.com/search-smallapp/small-soogif/vip url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/soogif.js
+https://www.soogif.com/search-smallapp/small-soogif/vip url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/soogif.js
 
 [mitm] 
 hostname = www.soogif.com

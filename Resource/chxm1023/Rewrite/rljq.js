@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/calendar\.aiyohoo\.com\/api\/.+\/(user\/device|calendar\/dev_auth) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/rljq.js
+^https?:\/\/calendar\.aiyohoo\.com\/api\/.+\/(user\/device|calendar\/dev_auth) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/rljq.js
 
 [mitm]
 hostname = calendar.aiyohoo.com

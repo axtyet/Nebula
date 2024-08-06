@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/www\.xfx119\.com\/ksVRExamSystem\/validityTerm url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/xiaofangxing.js
+^https?:\/\/www\.xfx119\.com\/ksVRExamSystem\/validityTerm url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/xiaofangxing.js
 
 [mitm]
 hostname = www.xfx119.com

@@ -7,7 +7,7 @@
 [rewrite_local]
 
 
-https:\/\/gateway\.mashibing\.com\/edu-course\/(coursePackage\/app\/1|app\/systemCourse|courseWeb) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/msb.js
+https:\/\/gateway\.mashibing\.com\/edu-course\/(coursePackage\/app\/1|app\/systemCourse|courseWeb) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/msb.js
 
 [mitm] 
 

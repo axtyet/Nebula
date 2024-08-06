@@ -4,7 +4,7 @@ PSExpress 23.49.1
 2023.12.15
 [rewrite_local]
 
-https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3 url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/PSExpress.js
+https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3 url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/PSExpress.js
 
 [mitm] 
 

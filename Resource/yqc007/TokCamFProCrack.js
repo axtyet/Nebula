@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # > TOK CAM解锁永久订阅
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/TokCamFProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/TokCamFProCrack.js
 
 [mitm] 
 

@@ -2,7 +2,7 @@
 编程狮 
 3.14.1
 [rewrite_local]
-^https:\/\/appapi\.w3cschool\.cn\/api\/myapp\/(isLogin|getLevel|getMyMedal|getMyCertificate) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Bcs.js
+^https:\/\/appapi\.w3cschool\.cn\/api\/myapp\/(isLogin|getLevel|getMyMedal|getMyCertificate) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Bcs.js
 [mitm]
 hostname = appapi.w3cschool.cn
 */

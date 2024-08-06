@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.kakamobi\.cn\/api\/open url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/jiakaobaodian.js
+^https?:\/\/.*\.kakamobi\.cn\/api\/open url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/jiakaobaodian.js
 
 [mitm]
 hostname = *.kakamobi.cn

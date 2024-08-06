@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https://medicine-books.meappstore.top/medicineModule/api/users/iosUserLogin url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/zyfj.js
+https://medicine-books.meappstore.top/medicineModule/api/users/iosUserLogin url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/zyfj.js
 
 
 [mitm]

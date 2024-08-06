@@ -3,7 +3,7 @@
 儿童学习口语必备
 帮助儿童增长才华
 [rewrite_local]
-https:\/\/aiyayaapp\.aiyayakids\.com\/aiyaya\/app\/(video\/playtime|cvideo\/(list|detail)|homepage\/course|user\/info)\.json url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/aiyaya.js
+https:\/\/aiyayaapp\.aiyayakids\.com\/aiyaya\/app\/(video\/playtime|cvideo\/(list|detail)|homepage\/course|user\/info)\.json url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/aiyaya.js
 [mitm]
 hostname = aiyayaapp.aiyayakids.com
 

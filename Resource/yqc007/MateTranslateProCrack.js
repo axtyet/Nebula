@@ -9,7 +9,7 @@
 *******************************
 [rewrite_local]
 # > Mate 翻译解锁永久订阅
-^https?:\/\/asia\.gikken\.co\/matesync\/subscription$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/MateTranslateProCrack.js
+^https?:\/\/asia\.gikken\.co\/matesync\/subscription$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/MateTranslateProCrack.js
 [mitm] 
 hostname = asia.gikken.co
 

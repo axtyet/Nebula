@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-https?:\/\/(api|www)\.hunliji\.com url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/hlj.js
+https?:\/\/(api|www)\.hunliji\.com url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/hlj.js
 
 [mitm]
 hostname = *.hunliji.com

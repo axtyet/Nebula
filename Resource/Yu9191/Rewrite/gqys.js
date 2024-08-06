@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-http://hd.m.jinerkan.com/v3/api/accounts/info url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/gqys.js
+http://hd.m.jinerkan.com/v3/api/accounts/info url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/gqys.js
 
 [mitm]
 hostname = hd.m.jinerkan.com

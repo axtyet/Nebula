@@ -1,7 +1,7 @@
 /*
 38块钱？
 [rewrite_local]
-https://openmobile.qq.com/oauth2.0/m_get_redirect_url url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/B.js
+https://openmobile.qq.com/oauth2.0/m_get_redirect_url url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/B.js
 [mitm]
 hostname = openmobile.qq.com
 */

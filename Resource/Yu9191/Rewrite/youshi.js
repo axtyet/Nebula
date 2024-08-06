@@ -3,7 +3,7 @@
 有诗 1.0.1
 
 [rewrite_local]
-https://youshiapp.com/api/v1/users/me url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/youshi.js
+https://youshiapp.com/api/v1/users/me url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/youshi.js
 
 [mitm] 
 hostname = youshiapp.com

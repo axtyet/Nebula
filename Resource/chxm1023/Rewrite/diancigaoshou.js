@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.diancigaoshou\.com\/api\/cards\/valid url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/diancigaoshou.js
+^https?:\/\/api\.diancigaoshou\.com\/api\/cards\/valid url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/diancigaoshou.js
 
 [mitm]
 hostname = api.diancigaoshou.com

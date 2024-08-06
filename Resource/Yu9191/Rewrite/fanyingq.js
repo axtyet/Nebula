@@ -3,7 +3,7 @@
 凡音钢琴 
 
 [rewrite_local]
-https://gzfanyin.com/api/ums/getMember url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/fanyingq.js
+https://gzfanyin.com/api/ums/getMember url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/fanyingq.js
 
 [mitm] 
 hostname = gzfanyin.com

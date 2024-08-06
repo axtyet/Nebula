@@ -8,7 +8,7 @@
 
 
 [rewrite_local]
-^https://mobile.flightradar24.com/mobile/(user-session|subscribe) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Flightradar24.js
+^https://mobile.flightradar24.com/mobile/(user-session|subscribe) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Flightradar24.js
 
 [mitm]
 hostname = mobile.flightradar24.com

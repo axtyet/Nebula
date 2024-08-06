@@ -19,7 +19,7 @@
 [rewrite_local]
 
 # ～ 阿里云盘（2023-01-05）@ddgksf2013
-^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/(apps|home)\/widgets$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/Scripts/alidrive.js
+^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/(apps|home)\/widgets$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/Scripts/alidrive.js
 
 [mitm]
 

@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https://ms.51wnl-cq.com/userApi/getUserDetai url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/zwj.js
+https://ms.51wnl-cq.com/userApi/getUserDetai url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/zwj.js
 
 
 [mitm]

@@ -4,7 +4,7 @@ TOPYS
 
 [rewrite_local]
 
-https://v4.api.topys.com/web/live/get_detail_info_from_app url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/TOPYS.js
+https://v4.api.topys.com/web/live/get_detail_info_from_app url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/TOPYS.js
 
 [mitm]
 hostname = v4.api.topys.com

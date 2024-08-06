@@ -3,7 +3,7 @@
 快捷指令库：https://apps.apple.com/app/id1540915106
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/kuaijiezhilingku.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/kuaijiezhilingku.js
 
 [MITM]
 hostname = buy.itunes.apple.com

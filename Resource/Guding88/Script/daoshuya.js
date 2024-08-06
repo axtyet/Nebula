@@ -3,8 +3,8 @@
 倒数鸭：https://apps.apple.com/app/id6457201223
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/daoshuya.js
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/daoshuya.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/daoshuya.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/daoshuya.js
 
 [MITM]
 hostname = api.revenuecat.com

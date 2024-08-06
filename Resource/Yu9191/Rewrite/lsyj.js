@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https?:\/\/api\.liangshiyaji\.cn\/(mobile\/Wexin\/customerCenterAppNew|api\/Strict\/getStrictDetails|api\/user\/CgetUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/lsyj.js
+https?:\/\/api\.liangshiyaji\.cn\/(mobile\/Wexin\/customerCenterAppNew|api\/Strict\/getStrictDetails|api\/user\/CgetUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/lsyj.js
 
 [mitm] 
 

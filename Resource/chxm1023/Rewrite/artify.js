@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/app\.kqwl\.site\/api\/v\d\/user\/install url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/artify.js
+^https?:\/\/app\.kqwl\.site\/api\/v\d\/user\/install url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/artify.js
 
 [mitm]
 hostname = app.kqwl.site

@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/viart-api\.afunapp\.com\/photodance\/(user_api\/(get_user_info|visitor_login)|order_api\/apple_query) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/photodance.js
+^https?:\/\/viart-api\.afunapp\.com\/photodance\/(user_api\/(get_user_info|visitor_login)|order_api\/apple_query) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/photodance.js
 
 [mitm]
 hostname = viart-api.afunapp.com

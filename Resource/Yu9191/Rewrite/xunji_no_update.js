@@ -5,7 +5,7 @@
 
 
 [rewrite_local]
-^https:\/\/xunji\.gxzckj\.com\/after310\/ios url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/xunji_no_update.js
+^https:\/\/xunji\.gxzckj\.com\/after310\/ios url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/xunji_no_update.js
 
 
 [mitm]

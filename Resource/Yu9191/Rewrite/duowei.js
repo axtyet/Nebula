@@ -3,7 +3,7 @@
 会员课程及付费课程
 [rewrite_local]
 
-https://dw-pro.iduov.com/dw-api url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/duowei.js
+https://dw-pro.iduov.com/dw-api url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/duowei.js
 
 [mitm]
 hostname = dw-pro.iduov.com

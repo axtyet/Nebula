@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.julanling\.com\/(member|splash_screen\/jjb_splash_screen|switch_my\/vip_banner_info) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/axjjb.js
+^https?:\/\/.*\.julanling\.com\/(member|splash_screen\/jjb_splash_screen|switch_my\/vip_banner_info) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/axjjb.js
 
 [mitm]
 hostname = *.julanling.com

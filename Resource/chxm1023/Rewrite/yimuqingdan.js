@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/yimutodo\.com\/api\/v\/mtop\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/yimuqingdan.js
+^https:\/\/yimutodo\.com\/api\/v\/mtop\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/yimuqingdan.js
 
 [mitm]
 hostname = yimutodo.com

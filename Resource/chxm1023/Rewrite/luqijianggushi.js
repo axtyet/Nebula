@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-https?:\/\/www\.luqijianggushi\.com\/api url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/luqijianggushi.js
+https?:\/\/www\.luqijianggushi\.com\/api url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/luqijianggushi.js
 
 [mitm]
 hostname = www.luqijianggushi.com

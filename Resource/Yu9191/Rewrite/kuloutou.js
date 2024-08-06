@@ -1,6 +1,6 @@
 /***
 [rewrite_local]
-^http[s]?:\/\/rootless.yumingzhu.top url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/kuloutou.js
+^http[s]?:\/\/rootless.yumingzhu.top url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/kuloutou.js
 [mitm] 
 hostname = rootless.yumingzhu.top
 

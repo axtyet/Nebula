@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-^https:\/\/.*api\.quthing\.com\/(.+\/vip|vip|student|user|ai|appearance|background|rest) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Laiyin.js
+^https:\/\/.*api\.quthing\.com\/(.+\/vip|vip|student|user|ai|appearance|background|rest) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Laiyin.js
 
 [mitm]
 hostname = partner-ai-api.quthing.com

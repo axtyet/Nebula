@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-^https:\/\/3api\.zyyzx\.com\.cn\/(education\/api\/coursetenant\/getCourseChapterAndLessonByCourseId|admin\/api\/user\/selectUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/zyyzx.js
+^https:\/\/3api\.zyyzx\.com\.cn\/(education\/api\/coursetenant\/getCourseChapterAndLessonByCourseId|admin\/api\/user\/selectUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/zyyzx.js
 
 [mitm]
 hostname = 3api.zyyzx.com.cn

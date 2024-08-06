@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/www\.40sishi\.com\/(list|currency|calculator)\/user\/profile$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/jsqhd.js
+^https?:\/\/www\.40sishi\.com\/(list|currency|calculator)\/user\/profile$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/jsqhd.js
 
 [mitm] 
 hostname = www.40sishi.com

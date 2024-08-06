@@ -3,7 +3,7 @@
 会员权益及全付费课程
 [rewrite_local]
 
-^https:\/\/yi-chuangxin\.com\/api\/v2\/ycxsx-product\/(audio|video)\/(get(Audio|Video)DetailV3|homePage)$|^https:\/\/yi-chuangxin\.com\/api\/v2\/ycxsx-product\/member\/productTop$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/ycxsx.js
+^https:\/\/yi-chuangxin\.com\/api\/v2\/ycxsx-product\/(audio|video)\/(get(Audio|Video)DetailV3|homePage)$|^https:\/\/yi-chuangxin\.com\/api\/v2\/ycxsx-product\/member\/productTop$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/ycxsx.js
 
 [mitm]
 hostname = yi-chuangxin.com

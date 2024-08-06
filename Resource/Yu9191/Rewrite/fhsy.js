@@ -3,7 +3,7 @@
 
 [rewrite_local]
 #会员
-http:\/\/app.ppmbook.com\/(system\/getVipInfo\.do|user\/getMyCenterVo\.do) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/fhsy.js
+http:\/\/app.ppmbook.com\/(system\/getVipInfo\.do|user\/getMyCenterVo\.do) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/fhsy.js
 #开屏广告
 ^http:\/\/app\.ppmbook\.com\/home\/getCurrentAdvertisement\.do$ url reject
 

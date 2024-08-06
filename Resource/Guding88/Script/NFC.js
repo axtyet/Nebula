@@ -3,7 +3,7 @@
 NFC Scanner Tool for iPhone：https://apps.apple.com/app/id1249686798
 
 [rewrite_local]
-^https?:\/\/api\.qonversion\.io\/v1\/user\/init url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/NFC.js
+^https?:\/\/api\.qonversion\.io\/v1\/user\/init url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/NFC.js
 
 [MITM]
 hostname = api.qonversion.io

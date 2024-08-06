@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/subscription-api\.lyrebirdstudio\.net\/subscriptions\/apple\/(verify|status|decode-apple-receipt) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/FaceLab.js
+^https?:\/\/subscription-api\.lyrebirdstudio\.net\/subscriptions\/apple\/(verify|status|decode-apple-receipt) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/FaceLab.js
 
 [mitm]
 hostname = subscription-api.lyrebirdstudio.net

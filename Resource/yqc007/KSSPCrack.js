@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 快手视频解锁会员
-^https?:\/\/v(ip|2)\.ksapi\d{3}\.me:\d{4}\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/KSSPCrack.js
+^https?:\/\/v(ip|2)\.ksapi\d{3}\.me:\d{4}\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/KSSPCrack.js
 
 [mitm] 
 

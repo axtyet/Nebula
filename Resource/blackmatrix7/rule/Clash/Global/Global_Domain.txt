@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-12 02:11:01
-# DOMAIN: 81
+# UPDATED: 2024-08-06 02:11:17
+# DOMAIN: 82
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 24826
+# DOMAIN-SUFFIX: 24947
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 25060
+# TOTAL: 25182
 adobeereg.com
 angle.com.tw
 anime-rule34-world.b-cdn.net
@@ -35,6 +35,7 @@ cdn-spotify-experiments.conductrics.com
 cdn.js7k.com
 cisco.evergage.com
 clubhouse.pubnubapi.com
+community.oneplus.com
 courier-push-apple.com.akadns.net
 crl.microsoft.com
 crl.versign.net
@@ -837,7 +838,11 @@ self.events.data.microsoft.com
 .afriboyz.com
 .aga-expo.com
 .agag.tw
+.agedm.app
 .agedm.org
+.agedm.tv
+.agefans.com
+.agemys.org
 .agendaweek.com
 .agoogleaday.com
 .agrd.io
@@ -1209,7 +1214,11 @@ self.events.data.microsoft.com
 .amazonalexavoxcon.com
 .amazonauthorinsights.com
 .amazonaws-china.com
+.amazonaws.biz
 .amazonaws.co.uk
+.amazonaws.info
+.amazonaws.net
+.amazonaws.org
 .amazonaws.tv
 .amazonbusiness.org
 .amazonbusinessblog.com
@@ -1832,6 +1841,8 @@ self.events.data.microsoft.com
 .assylum.com
 .asto.re
 .asus.com
+.asuscloud.com
+.asuswebstorage.com
 .atandt.com
 .atasale.com
 .atdmt2.com
@@ -1844,6 +1855,7 @@ self.events.data.microsoft.com
 .atlassian.net
 .atom.io
 .atos.net
+.ats1.e-timing.ne.jp
 .atscaleconference.com
 .att-bundles.com
 .att-idns.net
@@ -3458,7 +3470,6 @@ self.events.data.microsoft.com
 .bmwworld.net
 .bmwworld.tv
 .bmwzentrum.com
-.bnbstatic.com
 .bnef.com
 .boboporn.com
 .boboporn.net
@@ -4389,6 +4400,7 @@ self.events.data.microsoft.com
 .cockyboys.com
 .code.org
 .codeberg.org
+.codeberg.page
 .codecademy.com
 .codeforaliving.io
 .codeforces.com
@@ -5290,6 +5302,7 @@ self.events.data.microsoft.com
 .douzinnsi-eromannga.com
 .dowjones.io
 .dowjoneson.com
+.download.com
 .download.qatp1.net
 .download.qcpp1.net
 .download.qpdp1.net
@@ -6743,6 +6756,7 @@ self.events.data.microsoft.com
 .firstgynexam.com
 .firstpelvicexam.com
 .fishmpegs.com
+.fitbit.com
 .fitgirl-repacks.site
 .fitnakedgirls.com
 .five-d.com
@@ -7121,6 +7135,9 @@ self.events.data.microsoft.com
 .fscebook.com
 .fsdn.com
 .fse.tv
+.fsmone.com
+.fsmone.com.hk
+.fsmone.com.my
 .fssta.com
 .fstopimages.com
 .ft.com
@@ -7183,6 +7200,7 @@ self.events.data.microsoft.com
 .fundingrates.xyz
 .fundpaypal.com
 .fundraisingwithfacebook.com
+.fundsupermart.com
 .funimation.com
 .funnyfacebook.org
 .funnyordie.com
@@ -7210,6 +7228,7 @@ self.events.data.microsoft.com
 .futureshop.ca
 .fuxporn.com
 .fuzokudx.com
+.fxcorporate.com
 .fxn.ws
 .fxnetwork.com
 .fxporn.net
@@ -7573,8 +7592,10 @@ self.events.data.microsoft.com
 .gogo-load.com
 .gogoanime.vc
 .gogoanime.wiki
+.gogoanime3.co
 .gogocdn.net
 .gogole.com
+.gogotaku.info
 .gohentai.net
 .golang.com
 .golang.net
@@ -7961,7 +7982,6 @@ self.events.data.microsoft.com
 .guysnightlife.com
 .gv.com
 .gvt1-cn.com
-.gvt2-cn.com
 .gvt2.com
 .gvt5.com
 .gvt6.com
@@ -8654,6 +8674,49 @@ self.events.data.microsoft.com
 .hqxxxmovies.com
 .hrecords.jp
 .hrsaz.com
+.hsbc-alternatives.de
+.hsbc-transactionservices.de
+.hsbc-zertifikate.de
+.hsbc.ae
+.hsbc.am
+.hsbc.bm
+.hsbc.ca
+.hsbc.co.id
+.hsbc.co.in
+.hsbc.co.jp
+.hsbc.co.kr
+.hsbc.co.mu
+.hsbc.co.nz
+.hsbc.co.th
+.hsbc.co.uk
+.hsbc.com
+.hsbc.com.ar
+.hsbc.com.au
+.hsbc.com.bd
+.hsbc.com.bh
+.hsbc.com.br
+.hsbc.com.eg
+.hsbc.com.hk
+.hsbc.com.mo
+.hsbc.com.mt
+.hsbc.com.mx
+.hsbc.com.my
+.hsbc.com.ph
+.hsbc.com.sg
+.hsbc.com.tr
+.hsbc.com.tw
+.hsbc.com.uy
+.hsbc.com.vn
+.hsbc.de
+.hsbc.fr
+.hsbc.lk
+.hsbc.net
+.hsbc.uk
+.hsbcamanah.com.my
+.hsbcinnovationbanking.com
+.hsbcnet.com
+.hsbcprivatebank.com
+.hsbctrinkaus.de
 .hsex.men
 .hsex.tv
 .hsfacebook.com
@@ -8903,6 +8966,15 @@ self.events.data.microsoft.com
 .ieeesystemscouncil.org
 .ieeeusa.org
 .ietf.org
+.ifastcapital.com.my
+.ifastcorp.com
+.ifastfinancial.co.in
+.ifastfinancial.com.hk
+.ifastgb.com
+.ifastgp.com
+.ifastgp.com.hk
+.ifastnetwork.com
+.ifasttv.com
 .ifixit.com
 .ifontcloud.com
 .iframejav.com
@@ -9066,7 +9138,6 @@ self.events.data.microsoft.com
 .imagebam.com
 .imagecurl.com
 .imagecurl.org
-.imageglass.org
 .imagemodeler.com
 .imagepost.com
 .imageshack.com
@@ -9667,7 +9738,6 @@ self.events.data.microsoft.com
 .iwantmature.com
 .iwantporn.net
 .iwaponline.com
-.iwara.tv
 .iwork.com
 .iwork.se
 .iwork.wang
@@ -10228,6 +10298,7 @@ self.events.data.microsoft.com
 .kubeacademy.com
 .kubeapps.com
 .kubernetes.io
+.kucoin.plus
 .kum.com
 .kumo.com
 .kun66.xyz
@@ -10516,7 +10587,12 @@ self.events.data.microsoft.com
 .londonmithraeum.com
 .londonreal.tv
 .lonestarnaughtygirls.com
+.longbridge.cloud
+.longbridge.global
+.longbridge.hk
+.longbridge.sg
 .longman.ch
+.longportapp.com
 .longtailvideo.com
 .lookinside.com
 .looporn.com
@@ -11721,6 +11797,7 @@ self.events.data.microsoft.com
 .mpnevolution.com
 .mpv.io
 .mpweekly.com
+.mql5.com
 .mr-apple.com.tw
 .mr-tireman.jp
 .mray.club
@@ -12525,13 +12602,38 @@ self.events.data.microsoft.com
 .ntdtv.kr
 .ntdvn.com
 .ntnews.com.au
+.ntp-os01.ocn.ad.jp
+.ntp-tk01.ocn.ad.jp
+.ntp-tk02.ocn.ad.jp
+.ntp.dnsbalance.ring.gr.jp
 .ntp.fiord.ru
+.ntp.jst.mfeed.ad.jp
 .ntp.nat.ms
+.ntp.nc.u-tokyo.ac.jp
 .ntp.nic.cz
 .ntp.nict.jp
+.ntp.ring.gr.jp
 .ntp.ripe.net
 .ntp.se
+.ntp.t.ring.gr.jp
+.ntp.tohoku.ac.jp
+.ntp.tut.ac.jp
 .ntp.ufe.cz
+.ntp0.ring.gr.jp
+.ntp1.jst.mfeed.ad.jp
+.ntp1.plala.or.jp
+.ntp1.ring.gr.jp
+.ntp1.tohoku.ac.jp
+.ntp1.v6.mfeed.ad.jp
+.ntp1.wakwak.com
+.ntp2.jst.mfeed.ad.jp
+.ntp2.plala.or.jp
+.ntp2.ring.gr.jp
+.ntp2.tohoku.ac.jp
+.ntp2.v6.mfeed.ad.jp
+.ntp2.wakwak.com
+.ntp3.jst.mfeed.ad.jp
+.ntp3.v6.mfeed.ad.jp
 .ntten-mg.buzz
 .nu-bay.com
 .nu36.vip
@@ -12580,6 +12682,7 @@ self.events.data.microsoft.com
 .nudistsexvideos.com
 .nudistvoyeurbeach.com
 .nudity911.com
+.nudogram.com
 .nudography.com
 .nudostar.tv
 .nuespournous.com
@@ -12590,6 +12693,7 @@ self.events.data.microsoft.com
 .nuki-dokoro.com
 .nunuyy.cc
 .nurgay.to
+.nuro.jp
 .nurofen.at
 .nurofen.bg
 .nurofen.co.il
@@ -13282,7 +13386,6 @@ self.events.data.microsoft.com
 .perfectshemales.com
 .perfecttitspics.com
 .perl.org
-.perplexity.ai
 .persagg.com
 .persianepochtimes.com
 .person.com
@@ -13958,6 +14061,7 @@ self.events.data.microsoft.com
 .pricelesssydney.com
 .pricelesstoronto.ca
 .pricelesstv.com
+.priconne-redive.jp
 .pridetube.com
 .prime-video.com
 .primecurves.com
@@ -14560,6 +14664,7 @@ self.events.data.microsoft.com
 .s-nbcnews.com
 .s-rewards.hk
 .s-xoom.com
+.s2csntp.miz.nao.ac.jp
 .s2stagehance.com
 .s81c.com
 .s8ds5gfm.xyz
@@ -15278,6 +15383,7 @@ self.events.data.microsoft.com
 .snow.me
 .snowcorp.com
 .snowmiku.com
+.so-net.ne.jp
 .soasta-dswb.com
 .socailcam.com
 .socalbmw.com
@@ -15325,10 +15431,12 @@ self.events.data.microsoft.com
 .sony-olympus-medical.com
 .sony-promotion.eu
 .sony-semicon.co.jp
+.sony-semicon.com
 .sony.at
 .sony.ba
 .sony.be
 .sony.bg
+.sony.biz
 .sony.ca
 .sony.ch
 .sony.cl
@@ -15400,6 +15508,7 @@ self.events.data.microsoft.com
 .sonyglobalsolutions.jp
 .sonykigyo.jp
 .sonylatvija.com
+.sonynetwork.co.jp
 .sonypcl.jp
 .sonypictures.com
 .sonypicturesanimation.com
@@ -16377,6 +16486,7 @@ self.events.data.microsoft.com
 .transangels.com
 .transarmuito.com
 .transcamslive.com
+.transferwise.com
 .translatetheweb.com
 .translatewiki.net
 .translatewiki.org
@@ -16554,7 +16664,9 @@ self.events.data.microsoft.com
 .tweaksoftware.com
 .twgreatnews.com
 .twhentai.com
+.twi-videos.net
 .twidouga.net
+.twidouga.tv
 .twifuli.com
 .twinkboyfriends.tv
 .twinkspornos.com
@@ -17586,6 +17698,7 @@ self.events.data.microsoft.com
 .wballiance.com
 .wbd.ms
 .wbdnbo.net
+.wbrks.com
 .wbvm4s.com
 .wd.com
 .wdc.com
@@ -17765,11 +17878,13 @@ self.events.data.microsoft.com
 .wiremoneytoirelandwithxoomeasierandcheaper.com
 .wireshark.org
 .wise-research.com
+.wise.com
 .wisecoin.com
 .wiseid.com
 .wisekey.com
 .wisekey.com.hk
 .wish.com
+.wistia.net
 .withgoogle.com
 .withyoutube.com
 .wix-code.com
@@ -19451,6 +19566,7 @@ self.events.data.microsoft.com
 .axureformac.com
 .azerbaycan.tv
 .azerimix.com
+.azirevpn.com
 .azubu.tv
 .azure.com
 .azureedge.net
@@ -19639,6 +19755,7 @@ self.events.data.microsoft.com
 .blubrry.com
 .blueangellive.com
 .bmfinn.com
+.bnbstatic.com
 .bnews.co
 .bnext.com.tw
 .bnn.co
@@ -20019,6 +20136,7 @@ self.events.data.microsoft.com
 .clyp.it
 .cmail19.com
 .cmcn.org
+.cmegroup.com
 .cmi.org.tw
 .cmoinc.org
 .cms.gov
@@ -21485,6 +21603,7 @@ self.events.data.microsoft.com
 .imageab.com
 .imagefap.com
 .imageflea.com
+.imageglass.org
 .images-gaytube.com
 .imageshack.us
 .imagevenue.com
@@ -21616,6 +21735,7 @@ self.events.data.microsoft.com
 .ivacy.com
 .iverycd.com
 .ivpn.net
+.iwara.tv
 .ixquick.com
 .ixxx.com
 .iyouport.com
@@ -22803,6 +22923,7 @@ self.events.data.microsoft.com
 .perfect-privacy.com
 .perfectgirls.net
 .periscope.tv
+.perplexity.ai
 .persecutionblog.com
 .persiankitty.com
 .phapluan.org
@@ -23915,6 +24036,7 @@ self.events.data.microsoft.com
 .tibetswiss.ch
 .tibettelegraph.com
 .tibettimes.net
+.tibettruth.com
 .tibetwrites.org
 .ticket.com.tw
 .tigervpn.com

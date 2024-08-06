@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.ivrfun\.com\/pingx\/v\d\/user\/getInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/zhiliao.js
+^https?:\/\/api\.ivrfun\.com\/pingx\/v\d\/user\/getInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/zhiliao.js
 
 [mitm]
 hostname = api.ivrfun.com

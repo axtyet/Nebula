@@ -5,7 +5,7 @@ Lento
 
 
 [rewrite_local]
-https://lentoapp.com:8081/getUserMemberShipInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Lento.js
+https://lentoapp.com:8081/getUserMemberShipInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Lento.js
 
 
 [MITM]

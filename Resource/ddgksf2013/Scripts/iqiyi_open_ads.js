@@ -21,7 +21,7 @@ host-suffix, cupid.iqiyi.com, direct
 [rewrite_local]
 
 # ～ 爱奇艺（2023-03-17）@ddgksf2013
-^https?:\/\/.*cupid\.iqiyi\.com\/mixer\? url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/Scripts/iqiyi_open_ads.js
+^https?:\/\/.*cupid\.iqiyi\.com\/mixer\? url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/Scripts/iqiyi_open_ads.js
 
 [mitm]
 

@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-^https:\/\/w\.liupinyike\.com\/tablet\/api\/(class\/hour\/list|amineIndex|vipIndex) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/zsbt.js
+^https:\/\/w\.liupinyike\.com\/tablet\/api\/(class\/hour\/list|amineIndex|vipIndex) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/zsbt.js
 
 [mitm]
 hostname = w.liupinyike.com

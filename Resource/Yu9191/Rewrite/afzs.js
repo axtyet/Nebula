@@ -1,7 +1,7 @@
 /*
 [rewrite_local]
 
-https://afzs.iosoi.cn/appstore url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/afzs.js
+https://afzs.iosoi.cn/appstore url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/afzs.js
 
 [mitm]
 hostname = afzs.iosoi.cn

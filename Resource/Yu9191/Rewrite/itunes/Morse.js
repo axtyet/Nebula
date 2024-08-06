@@ -3,7 +3,7 @@ Morse
 
 [rewrite_local]
 
-https://api.apphud.com/v1/subscriptions/raw url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/itunes/Morse.js
+https://api.apphud.com/v1/subscriptions/raw url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/itunes/Morse.js
 
 [mitm] 
 

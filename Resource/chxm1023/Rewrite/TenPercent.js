@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.changecollective\.com\/api\/v\d\/user url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/TenPercent.js
+^https:\/\/api\.changecollective\.com\/api\/v\d\/user url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/TenPercent.js
 
 [mitm]
 hostname = api.changecollective.com

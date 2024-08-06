@@ -3,7 +3,7 @@
 ‎Focos Live：
 
 [rewrite_local]
-^https?:\/\/focoslive\.oracle\.bendingspoonsapps\.com\/v2\/users\/setup url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/FocosLive.js
+^https?:\/\/focoslive\.oracle\.bendingspoonsapps\.com\/v2\/users\/setup url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/FocosLive.js
 
 [MITM]
 hostname = focoslive.oracle.bendingspoonsapps.com

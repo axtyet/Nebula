@@ -10,8 +10,8 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/lentoapp\.com:8091\/getUserMemberShipInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/iTunes/pianyuji.js
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/iTunes/pianyuji.js
+^https?:\/\/lentoapp\.com:8091\/getUserMemberShipInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/iTunes/pianyuji.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/iTunes/pianyuji.js
 
 [mitm]
 hostname = lentoapp.com, buy.itunes.apple.com

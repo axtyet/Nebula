@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/caiyun_svip.js
+https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/caiyun_svip.js
 
 [mitm]
 hostname = biz.caiyunapp.com

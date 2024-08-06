@@ -7,7 +7,7 @@
 **************************************
 
 [rewrite_local]
-^http:\/\/www\.tingniukeji\.com\/audioclip\/queryIosVip url script-echo-response https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/ypjjds.js
+^http:\/\/www\.tingniukeji\.com\/audioclip\/queryIosVip url script-echo-response https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/ypjjds.js
 
 [mitm]
 hostname = www.tingniukeji.com

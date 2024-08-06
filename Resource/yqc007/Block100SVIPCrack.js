@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 拦截100解锁超级会员
-^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/Block100SVIPCrack.js
+^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/Block100SVIPCrack.js
 
 [mitm] 
 

@@ -2,15 +2,19 @@
 #!desc = 拦截常见的HTTPDNS服务，以确保这些请求都能够在Loon的DNS框架下工作。
 #!openUrl = 
 #!author = 可莉🅥 VirgilClyne
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!keyword = DNS, 可莉, VirgilClyne
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/blob/master/README.md
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/HTTPDNS.png
-#!date = 2024-07-10 11:22:49
+#!date = 2024-07-29 16:19:28
 
 [Rule]
 # YY语音
 DOMAIN, yyapp-httpdns.gslb.yy.com, REJECT
 DOMAIN, union-httpdns.gslb.yy.com, REJECT
 DOMAIN, httpdns-v6.gslb.yy.com, REJECT
+
+# 虎牙
+URL-REGEX, ^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns, REJECT
 
 # 抖音
 AND, ((DOMAIN-KEYWORD, api100-core-quic-), (DOMAIN-SUFFIX, amemv.com)), REJECT
@@ -23,7 +27,7 @@ AND, ((DOMAIN-KEYWORD, frontier100-aweme), (DOMAIN-SUFFIX, amemv.com)), REJECT
 AND, ((DOMAIN-KEYWORD, ma5-normal-), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
 AND, ((DOMAIN-KEYWORD, polaris5-normal-), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
 AND, ((DOMAIN-KEYWORD, webcast100-ws-c-), (DOMAIN-SUFFIX, amemv.com)), REJECT
-AND, ((OR, ((DOMAIN-KEYWORD, tnc3-bjlgy), (DOMAIN-KEYWORD, tnc11-bjlgy))), (OR, ((DOMAIN-SUFFIX, bytedance), (DOMAIN-SUFFIX, zijieapi.com)))), REJECT
+AND, ((DOMAIN-KEYWORD, tnc), (AND, ((OR, ((DOMAIN-KEYWORD, -bjlgy), (DOMAIN-KEYWORD, -alisc), (DOMAIN-KEYWORD, -aliec), (DOMAIN-KEYWORD, -alisg))), (OR, ((DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, isnssdk.com), (DOMAIN-SUFFIX, toutiaoapi.com), (DOMAIN-SUFFIX, bytedance.com), (DOMAIN-SUFFIX, zijieapi.com)))))), REJECT
 DOMAIN, frontier-aweme-hl.snssdk.com, REJECT
 DOMAIN, frontier-aweme.snssdk.com, REJECT
 DOMAIN, frontier-quic-test.bytedance.com, REJECT
@@ -118,6 +122,7 @@ IP-CIDR, 203.107.1.0/24, REJECT, no-resolve
 # 百度
 DOMAIN, httpdns.baidu.com, REJECT
 DOMAIN, httpsdns.baidu.com, REJECT
+DOMAIN, httpdns.bcelive.com, REJECT
 URL-REGEX, ^http:\/\/180\.76\.76\.112\/v\d\/, REJECT
 URL-REGEX, ^http:\/\/180\.76\.76\.112\/v\d\/resolve, REJECT
 URL-REGEX, ^http:\/\/180\.76\.76\.220\/v\d\/resolve, REJECT
@@ -147,6 +152,10 @@ DOMAIN, httpdns.volcengineapi.com, REJECT
 DOMAIN, dig.bdurl.net, REJECT
 DOMAIN, dig.zjurl.cn, REJECT
 
+# 斗鱼
+^http:\/\/203\.107\.1\.33\/\d+\/ss
+^http:\/\/203\.107\.1\.34\/\d+\/ss
+
 # OPPO
 DOMAIN, httpdns.push.oppomobile.com, REJECT
 
@@ -166,6 +175,7 @@ URL-REGEX, ^http:\/\/114\.110\.97\.97\/d, REJECT
 # 网易
 DOMAIN, httpdns.music.163.com, REJECT
 DOMAIN, httpdns.n.netease.com, REJECT
+DOMAIN, httpdns-sdk.n.netease.com, REJECT
 DOMAIN, httpdns.yunxindns.com, REJECT
 DOMAIN, lofter.httpdns.c.163.com, REJECT
 DOMAIN, music.httpdns.c.163.com, REJECT
@@ -187,11 +197,30 @@ IP-CIDR, 118.89.204.198/23, REJECT, no-resolve
 IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, no-resolve
 
 [Rewrite]
-^https?:\/\/119\.29\.29\.29\/d reject // 腾讯DNS
-^https?:\/\/203\.107\.1\.97/\d+/ss // 小川在线HTTPDNS
-^https?:\/\/203\.107\.1\.33/\d+/ss // 小川在线HTTPDNS
-^https?:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/http\/urlConfig\.do$ reject-dict // 网易邮箱
-^https?:\/\/amdc\.alipay\.com\/query // 闲鱼
+# 腾讯DNS
+^https?:\/\/119\.29\.29\.29\/d reject
+
+# 小川在线HTTPDNS
+^https?:\/\/203\.107\.1\.1/\d+/ss reject
+^https?:\/\/203\.107\.1\.33/\d+/ss reject
+^https?:\/\/203\.107\.1\.66/\d+/ss reject
+^https?:\/\/203\.107\.1\.67/\d+/ss reject
+^https?:\/\/203\.107\.1\.97/\d+/ss reject
+^https?:\/\/2401:b180:2000:30::1c\/\d+\/d reject
+^https?:\/\/2401:b180:2000:20::10\/\d+\/d reject
+
+# 网易邮箱
+^https?:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/http\/urlConfig\.do$ reject-dict
+
+# 闲鱼
+^https?:\/\/amdc\.alipay\.com\/query
+
+# 百度网盘
+^https?:\/\/180\.76\.76\.200\/v\d\/resolve reject
+^https?:\/\/180\.76\.76\.112\/v\d\/resolve reject
+
+# 虎牙
+^https?:\/\/cdn\.wup\.huya\.com\/monitor\/monitor\.jsp reject
 
 [Mitm]
-hostname = 119.29.29.29, 203.107.1.97, 203.107.1.33, appconf.mail.163.com, amdc.alipay.com
+hostname = 119.29.29.29, 203.107.1.1, 203.107.1.33, 203.107.1.66, 203.107.1.67, 203.107.1.97, 2401:b180:2000:30::1c, 2401:b180:2000:20::10, appconf.mail.163.com, amdc.alipay.com, 180.76.76.200, 180.76.76.112, cdn.wup.huya.com

@@ -13,7 +13,7 @@
 [rewrite_local]
 
 # ～ B站启动时开启直连模式（2022-085-11）@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/resource\/domain url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/Scripts/bilibili_startup_direct.js
+^https?:\/\/app\.bilibili\.com\/x\/resource\/domain url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/Scripts/bilibili_startup_direct.js
 
 [mitm] 
 

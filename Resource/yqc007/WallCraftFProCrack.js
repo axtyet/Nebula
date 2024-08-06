@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # > WallCraft解锁永久专业版
-^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/WallCraftFProCrack.js
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/WallCraftFProCrack.js
 
 [mitm] 
 

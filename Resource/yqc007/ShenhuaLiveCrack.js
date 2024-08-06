@@ -10,7 +10,7 @@
  ******************************************
 [rewrite_local]
 # > 神话 Live Purify & Crack VIP
-^https?:\/\/api\.sh88992\.com\/api\/video\/(user\/data|picture)$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/ShenhuaLiveCrack.js
+^https?:\/\/api\.sh88992\.com\/api\/video\/(user\/data|picture)$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/ShenhuaLiveCrack.js
 ^https?:\/\/api\.sh88992\.com\/api\/video\/ad|banner|config\?field=notice url reject-200
 [mitm] 
 hostname = api.sh88992.com

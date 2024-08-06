@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/my\.getslopes\.com\/api\/v\d\/account url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/Slopes.js
+^https?:\/\/my\.getslopes\.com\/api\/v\d\/account url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/Slopes.js
 
 [mitm]
 hostname = my.getslopes.com

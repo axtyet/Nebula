@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > Qobuz解锁Hi-Res订阅
-^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/user\/login$ url script-request-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/QobuzHiResProCrack.js
+^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/user\/login$ url script-request-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/QobuzHiResProCrack.js
 
 [mitm] 
 hostname = www.qobuz.com

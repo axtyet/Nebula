@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 视图播放器解锁永久免广告特权
-^https?:\/\/m\.jmtiv\.com\/video\/user\/login$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/ViewPlayerFProCrack.js
+^https?:\/\/m\.jmtiv\.com\/video\/user\/login$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/ViewPlayerFProCrack.js
 
 [mitm] 
 

@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.grammarly\.com\/(api\/v\d\/subscription|v\d\/user\/oranonymous) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/Grammarly.js
+^https?:\/\/.*\.grammarly\.com\/(api\/v\d\/subscription|v\d\/user\/oranonymous) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/Grammarly.js
 
 [mitm]
 hostname = *.grammarly.com

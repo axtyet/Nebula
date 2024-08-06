@@ -8,7 +8,7 @@
 使用方法：账号：baby 密码：1
 
 [rewrite_local]
-https://cad.glodon.com/account/gld/loginByPassword url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/cad.js
+https://cad.glodon.com/account/gld/loginByPassword url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/cad.js
 
 
 [MITM]

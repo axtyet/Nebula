@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(appss|standard)\.(rhinox.*|linhongshi)\.com\/.+\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/13geapp.js
+^https?:\/\/(appss|standard)\.(rhinox.*|linhongshi)\.com\/.+\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/13geapp.js
 
 [mitm]
 hostname = *.rhinox*.com, appss.linhongshi.com

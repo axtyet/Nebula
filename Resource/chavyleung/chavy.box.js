@@ -3,7 +3,7 @@ const $ = new Env('BoxJs')
 // 为 eval 准备的上下文环境
 const $eval_env = {}
 
-$.version = '0.19.2'
+$.version = '0.19.10'
 $.versionType = 'beta'
 
 // 发出的请求需要需要 Surge、QuanX 的 rewrite
@@ -299,6 +299,8 @@ async function handleApi() {
     await apiSaveData()
   } else if (api === '/surge') {
     await apiSurge()
+  } else if (api === '/update') {
+    await apiUpdate()
   }
 }
 
@@ -453,21 +455,22 @@ function getSystemApps() {
       script: 'https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js'
     },
     {
-      "id": "BoxGist",
-      "name": "Gist备份",
-      "keys": [
+      id: "BoxGist",
+      name: "Gist备份",
+      keys: [
         "@gist.token",
         "@gist.username",
         "@gist.split",
         "@gist.revision_options",
         "@gist.backup_type"
       ],
-      "author": "@dompling",
-      "icons": [
+      author: "@dompling",
+      repo: "https://github.com/dompling/Script/tree/master/gist",
+      icons: [
         "https://raw.githubusercontent.com/Former-Years/icon/master/github-bf.png",
         "https://raw.githubusercontent.com/Former-Years/icon/master/github-bf.png"
       ],
-      "descs_html": [
+      descs_html: [
         "<h2>Token的获取方式</h2>",
         "<ol>头像菜单 -></ol>",
         "<ol>Settings -></ol>",
@@ -482,86 +485,86 @@ function getSystemApps() {
         "<ol>点击右上角【...】>【View file】</ol>",
         "<ol>浏览器地址最后一串为 RevisionId</ol>"
       ],
-      "scripts": [
+      scripts: [
         {
-          "name": "备份 Gist",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js"
+          name: "备份 Gist",
+          script: "https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js"
         },
         {
-          "name": "从 Gist 恢复",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js"
+          name: "从 Gist 恢复",
+          script: "https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js"
         },
         {
-          "name": "更新历史版本",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/commit.js"
+          name: "更新历史版本",
+          script: "https://raw.githubusercontent.com/dompling/Script/master/gist/commit.js"
         }
       ],
-      "settings": [
+      settings: [
         {
-          "id": "@gist.split",
-          "name": "用户数据分段",
-          "val": null,
-          "type": "number",
-          "placeholder": "用户数据过大时，请进行拆分防止内存警告⚠️",
-          "desc": "值为数字，拆分段数比如 2 就拆分成两个 datas."
+          id: "@gist.split",
+          name: "用户数据分段",
+          val: null,
+          type: "number",
+          placeholder: "用户数据过大时，请进行拆分防止内存警告⚠️",
+          desc: "值为数字，拆分段数比如 2 就拆分成两个 datas."
         },
         {
-          "id": "@gist.revision_id",
-          "type": "modalSelects",
-          "name": "历史版本RevisionId",
-          "desc": "不填写时，默认获取最新，恢复后会自动清空。选择无内容时，请运行上方更新历史版本",
-          "items": "@gist.revision_options"
+          id: "@gist.revision_id",
+          type: "modalSelects",
+          name: "历史版本RevisionId",
+          desc: "不填写时，默认获取最新，恢复后会自动清空。选择无内容时，请运行上方更新历史版本",
+          items: "@gist.revision_options"
         },
         {
-          "id": "@gist.backup_type",
-          "name": "备份/恢复内容",
-          "val": "usercfgs,datas,sessions,curSessions,backups,appSubCaches",
-          "type": "checkboxes",
-          "items": [
+          id: "@gist.backup_type",
+          name: "备份/恢复内容",
+          val: "usercfgs,datas,sessions,curSessions,backups,appSubCaches",
+          type: "checkboxes",
+          items: [
             {
-              "key": "usercfgs",
-              "label": "用户偏好"
+              key: "usercfgs",
+              label: "用户偏好"
             },
             {
-              "key": "datas",
-              "label": "用户数据"
+              key: "datas",
+              label: "用户数据"
             },
             {
-              "key": "sessions",
-              "label": "应用会话"
+              key: "sessions",
+              label: "应用会话"
             },
             {
-              "key": "curSessions",
-              "label": "当前会话"
+              key: "curSessions",
+              label: "当前会话"
             },
             {
-              "key": "backups",
-              "label": "备份索引"
+              key: "backups",
+              label: "备份索引"
             },
             {
-              "key": "appSubCaches",
-              "label": "应用订阅缓存"
+              key: "appSubCaches",
+              label: "应用订阅缓存"
             }
           ]
         },
         {
-          "id": "@gist.username",
-          "name": "用户名",
-          "val": null,
-          "type": "text",
-          "placeholder": "github 用户名",
-          "desc": "必填"
+          id: "@gist.username",
+          name: "用户名",
+          val: null,
+          type: "text",
+          placeholder: "github 用户名",
+          desc: "必填"
         },
         {
-          "id": "@gist.token",
-          "name": "Personal access tokens",
-          "val": null,
-          "type": "text",
-          "placeholder": "github personal access tokens",
-          "desc": "必填"
+          id: "@gist.token",
+          name: "Personal access tokens",
+          val: null,
+          type: "text",
+          placeholder: "github personal access tokens",
+          desc: "必填"
         }
       ]
-    },
+    }
   ]
   return sysapps
 }
@@ -627,14 +630,6 @@ function getVersions() {
     },
     () => ($.json = {})
   )
-}
-
-/**
- * 获取用户应用
- */
-function getUserApps() {
-  // TODO 用户可在 BoxJs 中自定义应用, 格式与应用订阅一致
-  return []
 }
 
 /**
@@ -711,6 +706,25 @@ async function apiSave() {
     updateCurSesssions(appId, data)
   }
 
+  $.json = getBoxData()
+}
+
+async function apiUpdate() {
+  const data = $.toObj($request.body)
+  const path = data.path.split('.')
+  const val = data.val
+  const key = path.shift()
+  if (data.val && path.join('.')) {    
+    switch (key) {
+      case 'usercfgs':
+        const usercfgs = getUserCfgs()
+        update(usercfgs, path.join('.'), val)
+        $.setjson(usercfgs, $.KEY_usercfgs)
+        break
+      default:
+        break
+    }
+  }
   $.json = getBoxData()
 }
 
@@ -925,6 +939,12 @@ function reloadAppSubCache(url) {
       const subcaches = getAppSubCaches()
       subcaches[url] = $.toObj(resp.body)
       subcaches[url].updateTime = new Date()
+      // 仅缓存存在 id 的订阅
+      Object.keys(subcaches).forEach(key => {
+          if (!subcaches[key].hasOwnProperty('id')) {
+              delete subcaches[key]
+          }
+      })
       $.setjson(subcaches, $.KEY_app_subCaches)
       $.log(`更新订阅, 成功! ${url}`)
     } catch (e) {
@@ -932,6 +952,20 @@ function reloadAppSubCache(url) {
       $.log(`更新订阅, 失败! ${url}`)
     }
   })
+}
+
+function update(obj, path, value) {
+  const keys = path.split('.')
+  let current = obj
+
+  for (let i = 0; i < keys.length - 1; i++) {
+    if (!current[keys[i]]) {
+      current[keys[i]] = {}
+    }
+    current = current[keys[i]]
+  }
+
+  current[keys[keys.length - 1]] = value
 }
 
 async function reloadAppSubCaches() {
@@ -1098,12 +1132,6 @@ function doneApi() {
   if ($.isQuanX()) $.done({ status: 'HTTP/1.1 200', headers, body: $.json })
   else $.done({ response: { status: 200, headers, body: $.json } })
 }
-
-/**
- * GistBox by https://github.com/Peng-YM
- */
-// prettier-ignore
-function GistBox(e){const t=function(e,t={}){const{isQX:s,isLoon:n,isSurge:o}=function(){const e="undefined"!=typeof $task,t="undefined"!=typeof $loon,s="undefined"!=typeof $httpClient&&!this.isLoon,n="function"==typeof require&&"undefined"!=typeof $jsbox;return{isQX:e,isLoon:t,isSurge:s,isNode:"function"==typeof require&&!n,isJSBox:n}}(),r={};return["GET","POST","PUT","DELETE","HEAD","OPTIONS","PATCH"].forEach(i=>r[i.toLowerCase()]=(r=>(function(r,i){(i="string"==typeof i?{url:i}:i).url=e?e+i.url:i.url;const a=(i={...t,...i}).timeout,u={onRequest:()=>{},onResponse:e=>e,onTimeout:()=>{},...i.events};let c,d;u.onRequest(r,i),c=s?$task.fetch({method:r,...i}):new Promise((e,t)=>{(o||n?$httpClient:require("request"))[r.toLowerCase()](i,(s,n,o)=>{s?t(s):e({statusCode:n.status||n.statusCode,headers:n.headers,body:o})})});const f=a?new Promise((e,t)=>{d=setTimeout(()=>(u.onTimeout(),t(`${r} URL: ${i.url} exceeds the timeout ${a} ms`)),a)}):null;return(f?Promise.race([f,c]).then(e=>(clearTimeout(d),e)):c).then(e=>u.onResponse(e))})(i,r))),r}("https://api.github.com",{headers:{Authorization:`token ${e}`,"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.141 Safari/537.36"},events:{onResponse:e=>String(e.statusCode).startsWith("4")?Promise.reject(`ERROR: ${JSON.parse(e.body).message}`):e}}),s=e=>`boxjs.bak.${e}.json`,n=e=>e.match(/boxjs\.bak\.(\d+)\.json/)[1];return new class{async findDatabase(){return t.get("/gists").then(e=>{const t=JSON.parse(e.body);for(let e of t)if("BoxJs Gist"===e.description)return e.id;return-1})}async createDatabase(e){e instanceof Array||(e=[e]);const n={};return e.forEach(e=>{n[s(e.time)]={content:e.content}}),t.post({url:"/gists",body:JSON.stringify({description:"BoxJs Gist",public:!1,files:n})}).then(e=>JSON.parse(e.body).id)}async deleteDatabase(e){return t.delete(`/gists/${e}`)}async getBackups(e){const s=await t.get(`/gists/${e}`).then(e=>JSON.parse(e.body)),{files:o}=s,r=[];for(let e of Object.keys(o))r.push({time:n(e),url:o[e].raw_url});return r}async addBackups(e,t){t instanceof Array||(t=[t]);const n={};return t.forEach(e=>n[s(e.time)]={content:e.content}),this.updateBackups(e,n)}async deleteBackups(e,t){t instanceof Array||(t=[t]);const n={};return t.forEach(e=>n[s(e)]={}),this.updateBackups(e,n)}async updateBackups(e,s){return t.patch({url:`/gists/${e}`,body:JSON.stringify({files:s})})}}}
 
 /**
  * EnvJs

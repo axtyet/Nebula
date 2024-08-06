@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # 糖心VLog网页版解锁会员
-^https?:\/\/txv04\.com\/h5\/user\/findQrcode$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/TXVWCrack.js
+^https?:\/\/txv04\.com\/h5\/user\/findQrcode$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/TXVWCrack.js
 
 [mitm] 
 

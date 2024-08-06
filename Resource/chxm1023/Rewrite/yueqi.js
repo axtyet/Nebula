@@ -12,7 +12,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/.*api\.quthing\.com\/(.+\/vip|vip|student|user|appearance|background|rest) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/yueqi.js
+^https:\/\/.*api\.quthing\.com\/(.+\/vip|vip|student|user|appearance|background|rest) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/yueqi.js
 
 [mitm]
 hostname = *api.quthing.com

@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/cs\.kuso\.xyz\/configs.+ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/iscreenfz.js
+^https?:\/\/cs\.kuso\.xyz\/configs.+ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/iscreenfz.js
 ^https?:\/\/pay\.kuso\.xyz\/pay\/pay-check url reject-200
 
 [mitm]

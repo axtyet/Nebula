@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 神话直播解锁会员
-^https?:\/\/shapi\.qyrunda\.com\/api\/video\/user\/data$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/SHZBCrack.js
+^https?:\/\/shapi\.qyrunda\.com\/api\/video\/user\/data$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/SHZBCrack.js
 ^https?:\/\/shapi\.qyrunda\.com\/api\/video\/(ad|banner|config\?field=not(es|ice)) url reject-200
 
 [mitm] 

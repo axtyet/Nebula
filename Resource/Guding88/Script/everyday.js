@@ -1,7 +1,7 @@
 /*
 
 [rewrite_local]
-^https?:\/\/api\.everyday\.app\/users url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/everyday.js
+^https?:\/\/api\.everyday\.app\/users url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/everyday.js
 
 [MITM]
 hostname = api.every.day.app

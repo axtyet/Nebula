@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 克拉壁纸解锁订阅
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/ClarityPaperProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/ClarityPaperProCrack.js
 [mitm] 
 hostname = buy.itunes.apple.com
 

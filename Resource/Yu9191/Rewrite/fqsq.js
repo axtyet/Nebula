@@ -2,7 +2,7 @@
 番茄闪轻
 [rewrite_local]
 
-https://tomato-health.imfasting.cn/api/user_info url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/fqsq.js
+https://tomato-health.imfasting.cn/api/user_info url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/fqsq.js
 
 [mitm]
 hostname = tomato-health.imfasting.cn

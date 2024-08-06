@@ -3,8 +3,8 @@
 AmiiBoss：https://apps.apple.com/app/id1579972834
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/AmiiBoss.js
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/AmiiBoss.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/AmiiBoss.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/AmiiBoss.js
 
 [MITM]
 hostname = api.revenuecat.com

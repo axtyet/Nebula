@@ -5,7 +5,7 @@
 
 [rewrite_local]
 #朝暮计划
-^https:\/\/app\.zomoplan\.com\/zhaoMuPlan\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/zhaomujihua.js
+^https:\/\/app\.zomoplan\.com\/zhaoMuPlan\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/zhaomujihua.js
 [mitm]
 hostname = app.zomoplan.com
 

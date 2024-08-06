@@ -9,7 +9,7 @@
 *******************************
 [rewrite_local]
 # > AISE 解锁永久会员
-^https?:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/FaceProForeverVipCrack.js
+^https?:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/FaceProForeverVipCrack.js
 [mitm] 
 hostname = bmall.camera360.com
 

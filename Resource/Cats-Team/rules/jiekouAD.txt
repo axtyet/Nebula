@@ -1,10 +1,23 @@
 [Adblock Plus 2.0]
 ! Title: 轻量广告拦截规则
 ! Homepage: https://github.com/damengzhu/banad
-! Update Time: 2024-07-09 12:43:33（北京时间）
-! Total Count: 5339
+! Update Time: 2024-08-03 21:00:43（北京时间）
+! Total Count: 5382
 ! by: 酷安@大萌主
-! Host
+! domain name
+||doubanio.top^
+||xlhdicw.top^
+||1.11130.com.cn^
+||mwzbp.ccbangong.com^
+||pgcciax.icu^
+||hahusa.top^
+||kaishq.top^
+||fmkipgm.icu^
+||bun1.dayi.org.cn^
+||d-test.39.net^
+||classic.39health.com^
+||duyewnf.icu^
+||fundingchoicesmessages.google.com^
 ||lfbz317s.icu^
 ||hwgzp5.com^
 ||dcxdtp.com^
@@ -78,7 +91,6 @@
 ||5mgrgsc.cn^
 ||5uxmusq.cn^
 ||nmntgd.cn^
-||5uxmusq.cn^
 ||xn--qrq171dxpq.com^
 ||nawpyd.icu^
 ||cnalzlf.top^
@@ -193,7 +205,6 @@
 ||zzmyrz.com^
 ||cdvsd9.com^
 ||sdvsv.com^
-||l80ays.com^
 ||xman.asia^
 ||kiitsl.icu^
 ||metheny.cn^
@@ -4131,6 +4142,48 @@
 ||zzxlhwyp.com^
 ||zzycj.com^
 ! APP Host
+||android.bugly.qq.com^
+||trace.qq.com^
+||api-access.pangolin-sdk-toutiao.com^
+||toblog.ctobsnssdk.com^
+||sf3-fe-tos.pglstatp-toutiao.com^
+||tnc3-bjlgy.zijieapi.com^
+||log-api.pangolin-sdk-toutiao.com^
+||tnc3-alisc1.zijieapi.com^
+||janapi.jd.com^
+||xlog.jd.com^
+||open.e.kuaishou.com^
+||beacon.qq.com^
+||gromore.pangolin-sdk-toutiao.com^
+||e.qq.com^
+||mobads.baidu.com^
+||beacon-api.aliyuncs.com^
+||log.snssdk.com^
+||mssdk.volces.com^
+||api-access.pangolin-sdk-toutiao1.com^
+||gdt.qq.com^
+||public.gdtimg.com^
+||hmma.baidu.com^
+||mi.gdt.qq.com^
+||sdk.beizi.biz^
+||sdk.e.qq.com^
+||api-access.pangolin-sdk-toutiao-b.com^
+||pgdt.ugdtimg.com^
+||applog.zijieapi.com^
+||v2.gdt.qq.com^
+||adsmind.ugdtimg.com^
+||qzs.gdtimg.com^
+||api-htp.beizi.biz^
+||h.trace.qq.com^
+||log-api.pangolin-sdk-toutiao-b.com^
+||gdfp.gifshow.com^
+||log.zijieapi.com^
+||p3-be-pack-sign.pglstatp-toutiao.com^
+||open.e.kuaishou.cn^
+||huichuan.sm.cn^
+||v.adx.hubcloud.com.cn^
+||sdktmp.hubcloud.com.cn^
+||otheve.beacon.qq.com^
 ||ixisivomer.com^
 ||exinariuminix.info^
 ||chabadokor.com^
@@ -4147,25 +4200,15 @@
 ||tracker.ai.xiaomi.com^
 ||ulogs.umeng.com^
 ||ulogs.umengcloud.com^
-||toblog.ctobsnssdk.com^
 ||tobapplog.ctobsnssdk.com^
-||trace.qq.com^
-||e.qq.com^
-||log.snssdk.com^
-||log-api.pangolin-sdk-toutiao.com^
 ||auth.be.sec.miui.com^
-||android.bugly.qq.com^
 ||tdid.m.qq.com^
-||gdfp.gifshow.com^
-||gdt.qq.com^
 ||als.baidu.com^
 ||alog.umeng.com^
 ||alog.umengcloud.com^
 ||umengcloud.com^
-||hmma.baidu.com^
 ||e.kuaishou.com^
 ||api.installer.xiaomi.com^
-||beacon-api.aliyuncs.com^
 ||api.ad.xiaomi.com^
 ||worldwide.sogou.com^
 ||tools.3g.qq.com^
@@ -4190,7 +4233,6 @@
 ||advertpay-vip-ssl.xunlei.com^
 ||qqdata.ab.qq.com^
 ||qappcenterv6.3g.qq.com^
-||mob.com^
 ||adash.man.aliyuncs.com^
 ||norma-external-collect.meizu.com^
 ||soa-vip-ssl.xunlei.com^
@@ -4244,7 +4286,6 @@
 ||h-adashx.ut.taobao.com^
 ||applog.uc.cn^
 ||adx-open-service.youku.com^
-||huichuan.sm.cn^
 ||cad.youku.com^
 ||adlaunch.qtfm.cn^
 ||amdc.alipay.com^
@@ -4298,9 +4339,8 @@
 ||igexin.com^
 ||pingma.qq.com^
 ||sugar.zhihu.com^
-||mobads.baidu.com^
 ||stat.meitudata.com^
-! URL
+! url
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
 @@.com/o.js$domain=2biqu.com
 @@||/template/conch/asset/js/hlhtml.js$domain=www.lldm.net|1anime.me
@@ -4442,6 +4482,7 @@ hanman/static/dist/ppm/js/main.js
 /ht.js?site_
 /*/*.add.*.add
 /_xa/ads?
+||moegirl.org.cn/insight/moegirlinsight.
 com:8891/c.php?s=*$third-party
 /gameapk/*/hongbao.apk
 /dibu.adadadad
@@ -4645,7 +4686,7 @@ template/m1938pc/ads/*.js
 ||sodu2020.com/js/ppc.js
 /js/statistics/user_ad.js
 /static/js/miniyyrtv-config.js
-! CSS
+! element
 @@||developer.apple.com$generichide
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 manwa.me#@#.ad-area
@@ -4849,6 +4890,7 @@ axutongxue.com##DIV[style='text-align:center']
 www.xda-developers.com##.adzone-above-latest
 www.lezhutv.com##[style='bottom: 132px;']
 woozooo.com##.ves
+moegirl.org.cn##[style*='box-shadow: rgb(136, 136, 136) 0px 0px']
 baifumeiba.com##DIV#ad
 applnn.cc##DIV.html-box
 ckizma.com###post-card-64841,#post-card-50163,.post-card-ads,.popup-container
@@ -4888,7 +4930,6 @@ sogou.com##.ad_result
 nxnba.com##.bootom-fixed
 ifeng.com##div[class^="ad_"]
 docin.com##.moneyBox
-autohome.com.cn##ol > li,.evade-operate
 match.tdping.com##P[style='text-align:left;margin:0;'],td.livetitle > L
 pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 luoqiuzw.com##DIV[id^="a-loading-"]
@@ -5318,6 +5359,8 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##IMG[onclick='godown()'][src$='gif']
 ##IMG[src='https://tanju.vip/wapxiezi.png']
 ##[href*='snnrb.com']
+##body#nr_body #appss
+##body#nr_body [onclick='goAppHtml();']
 ##[style='display: block; width: 100%; height: 125px; background-size: 100% 100%;']
 ##DIV[style='position: absolute; inset: 0px; background: rgba(0, 0, 0, 0);']
 ##DIV[class][id][style$='px; background-size: 400px 127px !important;']

@@ -1,4 +1,4 @@
-# 2024-07-08 21:52
+# 2024-07-31 22:20
 
 #!/bin/bash
 
@@ -63,7 +63,7 @@ curl -L -o Tool-repo/Surge/Rules/DownloadCDN_CN.list "https://gitlab.com/lodepul
 curl -L -o Tool-repo/Surge/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 curl -L -o Tool-repo/Surge/Rules/WeChat.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list"
 curl -L -o Tool-repo/Surge/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
-curl -L -o Tool-repo/Surge/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+curl -L -o Tool-repo/Surge/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
 # 广告规则 
 curl -L -o Tool-repo/Surge/Rules/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
 curl -L -o Tool-repo/Surge/Rules/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
@@ -80,6 +80,8 @@ curl -L -o Tool-repo/Surge/Rules/Ads_fmz200.list "https://raw.githubusercontent.
 # SukkaW
 curl -L -o Tool-repo/Surge/Rules/Ads_SukkaW.list "https://ruleset.skk.moe/List/domainset/reject.conf"
 curl -L -o Tool-repo/Surge/Rules/Ads_SukkaW_NoIP.list "https://ruleset.skk.moe/List/non_ip/reject.conf"
+curl -L -o Tool-repo/Surge/Rules/CDN.list "https://ruleset.skk.moe/List/domainset/cdn.conf"
+curl -L -o Tool-repo/Surge/Rules/CDN_NoIP.list "https://ruleset.skk.moe/List/non_ip/cdn.conf"
 # ConnersHua
 curl -L -o Tool-repo/Surge/Rules/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
 curl -L -o Tool-repo/Surge/Rules/Hijacking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
@@ -141,7 +143,7 @@ curl -L -o Tool-repo/Clash/Rules/PayPal.list "https://raw.githubusercontent.com/
 # 国内规则 
 curl -L -o Tool-repo/Clash/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 curl -L -o Tool-repo/Clash/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
-curl -L -o Tool-repo/Clash/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+curl -L -o Tool-repo/Clash/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
 curl -L -o Tool-repo/Surge/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
 # 游戏规则 
 curl -L -o Tool-repo/Clash/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
@@ -219,7 +221,7 @@ cp -r Tool-repo/Surge/Rules/Talkatone.list Tool-repo/QuantumultX/Rules/Talkatone
 # 国内规则
 curl -L -o Tool-repo/QuantumultX/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 curl -L -o Tool-repo/QuantumultX/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
-curl -L -o Tool-repo/QuantumultX/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+curl -L -o Tool-repo/QuantumultX/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
 curl -L -o Tool-repo/QuantumultX/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
 # 游戏规则
 curl -L -o Tool-repo/QuantumultX/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
@@ -295,7 +297,7 @@ cp -r Tool-repo/Surge/Rules/Talkatone.list Tool-repo/Loon/Rules/Talkatone.list
 # 国内规则 
 curl -L -o Tool-repo/Loon/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 curl -L -o Tool-repo/Loon/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
-curl -L -o Tool-repo/Loon/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+curl -L -o Tool-repo/Loon/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
 curl -L -o Tool-repo/Loon/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
 # 游戏规则 
 curl -L -o Tool-repo/Loon/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
@@ -374,7 +376,7 @@ cp -r Tool-repo/Surge/Rules/Talkatone.list Tool-repo/Shadowrocket/Rules/Talkaton
 # 国内规则 
 curl -L -o Tool-repo/Shadowrocket/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 curl -L -o Tool-repo/Shadowrocket/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
-curl -L -o Tool-repo/Shadowrocket/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+curl -L -o Tool-repo/Shadowrocket/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
 curl -L -o Tool-repo/Shadowrocket/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
 # 游戏规则 
 curl -L -o Tool-repo/Shadowrocket/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
@@ -443,7 +445,7 @@ cp -r Tool-repo/Surge/Rules/Emby.list Tool-repo/Stash/Rules/Emby.yaml
 # 国内规则 
 curl -L -o Tool-repo/Stash/Rules/Bilibili.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 curl -L -o Tool-repo/Stash/Rules/WeChat.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
-curl -L -o Tool-repo/Stash/Rules/ChinaDomain.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+curl -L -o Tool-repo/Stash/Rules/ChinaDomain.yaml "https://ruleset.skk.moe/List/non_ip/domestic.conf"
 curl -L -o Tool-repo/Stash/Rules/ChinaASN.yaml "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
 # PayPal
 curl -L -o Tool-repo/Stash/Rules/PayPal.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
@@ -521,7 +523,7 @@ cp -r Tool-repo/Surge/Rules/Emby.list Tool-repo/Stash/Rules/Emby.list
 # 国内规则 
 curl -L -o Tool-repo/Stash/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 curl -L -o Tool-repo/Stash/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
-curl -L -o Tool-repo/Stash/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+curl -L -o Tool-repo/Stash/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
 curl -L -o Tool-repo/Stash/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
 # PayPal
 curl -L -o Tool-repo/Stash/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
@@ -613,7 +615,7 @@ cp -r Tool-repo/Surge/Rules/Talkatone.list Tool-repo/Egern/Rules/Talkatone.yaml
 # 国内规则 
 curl -L -o Tool-repo/Egern/Rules/Bilibili.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 curl -L -o Tool-repo/Egern/Rules/WeChat.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
-curl -L -o Tool-repo/Egern/Rules/ChinaDomain.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+curl -L -o Tool-repo/Egern/Rules/ChinaDomain.yaml "https://ruleset.skk.moe/List/non_ip/domestic.conf"
 curl -L -o Tool-repo/Egern/Rules/ChinaASN.yaml "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
 # 游戏规则 
 curl -L -o Tool-repo/Egern/Rules/Game.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
@@ -633,6 +635,8 @@ curl -L -o Tool-repo/Egern/Rules/Direct_fmz200.yaml "https://raw.githubuserconte
 curl -L -o Tool-repo/Egern/Rules/Ads_fmz200.yaml "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
 # Lan
 cp -r Tool-repo/Surge/Rules/Lan.list Tool-repo/Egern/Rules/Lan.yaml
+# Direct
+cp -r Tool-repo/Surge/Rules/Direct.list Tool-repo/Egern/Rules/Direct.yaml
 
 
 #--- GeoIP ---#

@@ -3,7 +3,7 @@ gpt4o 权限
 
 [rewrite_local]
 
-https://api.voicenotes.com/api/auth/me url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/voicenotes.js
+https://api.voicenotes.com/api/auth/me url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/voicenotes.js
 
 [mitm]
 hostname = api.voicenotes.com

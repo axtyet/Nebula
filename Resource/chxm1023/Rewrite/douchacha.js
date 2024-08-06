@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.douchacha\.com\/api\/(user\/info|order\/get_info) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/douchacha.js
+^https?:\/\/api\.douchacha\.com\/api\/(user\/info|order\/get_info) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/douchacha.js
 
 [mitm]
 hostname = api.douchacha.com

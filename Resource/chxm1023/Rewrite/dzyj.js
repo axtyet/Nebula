@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/mobile-new\.chinaeew\.cn\/v\d\/order\/apple\/vip url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/dzyj.js
+^https?:\/\/mobile-new\.chinaeew\.cn\/v\d\/order\/apple\/vip url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/dzyj.js
 
 [mitm]
 hostname = mobile-new.chinaeew.cn

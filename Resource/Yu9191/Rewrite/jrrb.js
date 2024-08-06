@@ -6,7 +6,7 @@
 
 [rewrite_local]
 
-https://api2.tophub.app/account/sync url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/jrrb.js
+https://api2.tophub.app/account/sync url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/jrrb.js
 
 [mitm] 
 

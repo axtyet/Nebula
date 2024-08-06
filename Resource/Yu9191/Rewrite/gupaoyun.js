@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https:\/\/ke\.gupaoedu\.cn\/api\/(web\/quiz\/package|v2\/curriculum\/outline|user\/) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/gupaoyun.js
+https:\/\/ke\.gupaoedu\.cn\/api\/(web\/quiz\/package|v2\/curriculum\/outline|user\/) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/gupaoyun.js
 
 [mitm] 
 

@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/(paywall|get_story_more_info) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/FT.js
+^https?:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/(paywall|get_story_more_info) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/FT.js
 ^https?:\/\/ftmailbox\.cn\/ad_impression\/.+ url reject-200
 
 [mitm]

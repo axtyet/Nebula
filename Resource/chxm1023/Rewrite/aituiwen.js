@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/twios\.styleart\.cn url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/aituiwen.js
+^https?:\/\/twios\.styleart\.cn url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/aituiwen.js
 
 [mitm]
 hostname = twios.styleart.cn

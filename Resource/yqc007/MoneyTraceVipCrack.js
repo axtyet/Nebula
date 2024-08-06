@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 钱迹解锁终身会员
-^https?:\/\/qianji\.xxoojoke\.com\/vip\/configios url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/MoneyTraceVipCrack.js
+^https?:\/\/qianji\.xxoojoke\.com\/vip\/configios url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/MoneyTraceVipCrack.js
 
 [mitm] 
 hostname = qianji.xxoojoke.com

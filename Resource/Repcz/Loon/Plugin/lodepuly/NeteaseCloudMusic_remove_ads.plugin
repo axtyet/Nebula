@@ -2,9 +2,10 @@
 #!desc = 过滤网易云音乐广告，并允许自定义界面。
 #!openUrl = https://apps.apple.com/app/id590338362
 #!author = Keywos
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!keyword = 去广告, Keywos
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/blob/master/README.md
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/NeteaseCloudMusic.png
-#!date = 22024-06-12 02:09:03
+#!date = 2024-06-12 02:09:03
 #!select = 隐藏漫游标签, 是, 否
 #!select = 隐藏动态标签, 是, 否
 #!select = 隐藏推荐标签, 是, 否

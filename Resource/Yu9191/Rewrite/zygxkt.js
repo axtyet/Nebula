@@ -2,7 +2,7 @@
 /*
 状元共享课堂
 [rewrite_local]
-https://xzykt.longmenshuju.com/version url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/zygxkt.js
+https://xzykt.longmenshuju.com/version url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/zygxkt.js
 
 [mitm]
 hostname = xzykt.longmenshuju.com

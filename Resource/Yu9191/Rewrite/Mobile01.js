@@ -6,7 +6,7 @@ Mobile01
 其他功能未测试
 
 [rewrite_local]
-https://www.mobile01.com/api/account/verify_token.php url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Mobile01.js
+https://www.mobile01.com/api/account/verify_token.php url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Mobile01.js
 [mitm]
 hostname = www.mobile01.com
 

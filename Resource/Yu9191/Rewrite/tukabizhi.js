@@ -2,7 +2,7 @@
 /*
 图卡壁纸
 [rewrite_local]
-https://smallatom.xyz/bz/img006/periodList url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/tukabizhi.js
+https://smallatom.xyz/bz/img006/periodList url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/tukabizhi.js
 
 [mitm]
 hostname = smallatom.xyz

@@ -18,7 +18,7 @@
 [rewrite_local]
   
 # > focos|focoslive☆解锁会员权限（2023-05-05）@ddgksf2013
-^https?:\/\/.*oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/MOYU/FocosProCrack.js
+^https?:\/\/.*oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/MOYU/FocosProCrack.js
 
 
 [mitm]

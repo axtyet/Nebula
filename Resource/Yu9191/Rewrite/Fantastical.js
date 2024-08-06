@@ -2,7 +2,7 @@
 Fantastical Calendar
 2023.12.230
 [rewrite_local]
-^https:\/\/api\.flexibits\.com\/v1\/account\/details\/\? url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Fantastical.js
+^https:\/\/api\.flexibits\.com\/v1\/account\/details\/\? url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Fantastical.js
 [mitm]
 hostname = api.flexibits.com
 */

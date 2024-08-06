@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-http:\/\/wallpaper\.jingqueyun\.com\/\/index\.php\/\/(user\/getUserInfo|download) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/xxbzdq.js
+http:\/\/wallpaper\.jingqueyun\.com\/\/index\.php\/\/(user\/getUserInfo|download) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/xxbzdq.js
 
 [mitm]
 hostname = wallpaper.jingqueyun.com

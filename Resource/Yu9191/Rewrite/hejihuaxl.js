@@ -4,7 +4,7 @@
 价格四位数的课程无法解锁
 [rewrite_local]
 
-https://cgzd.hejihua.com/api/teaching/project/catalog/v1 url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/hejihuaxl.js
+https://cgzd.hejihua.com/api/teaching/project/catalog/v1 url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/hejihuaxl.js
 
 [mitm] 
 

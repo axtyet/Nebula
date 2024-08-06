@@ -5,7 +5,7 @@
 [rewrite_local]
 
 
-https://music.hjyywh.com/api/Exam. url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/yjkjb.js
+https://music.hjyywh.com/api/Exam. url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/yjkjb.js
 
 [mitm] 
 

@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https://ef.aiotoolbox.com.cn/basis/v2/init url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/gsqds.js
+https://ef.aiotoolbox.com.cn/basis/v2/init url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/gsqds.js
 
 [mitm]
 hostname = ef.aiotoolbox.com.cn

@@ -3,7 +3,7 @@
 Revive：https://apps.apple.com/app/id1616862692
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/Revive.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/Revive.js
 
 [MITM]
 hostname = buy.itunes.apple.com

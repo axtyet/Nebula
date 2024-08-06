@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/kkr-user\.tapque\.com\/kkruserapi\/userOrderInfo\/isVip url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/aituhuihua.js
+^https?:\/\/kkr-user\.tapque\.com\/kkruserapi\/userOrderInfo\/isVip url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/aituhuihua.js
 
 [mitm]
 hostname = kkr-user.tapque.com

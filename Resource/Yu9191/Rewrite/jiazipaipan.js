@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-^https:\/\/app.iyzbz.com\/app\/user\/selfinfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/jiazipaipan.js
+^https:\/\/app.iyzbz.com\/app\/user\/selfinfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/jiazipaipan.js
 
 [mitm] 
 

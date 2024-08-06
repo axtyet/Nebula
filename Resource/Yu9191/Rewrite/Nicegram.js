@@ -3,7 +3,7 @@
 Nicegram 1.4.7
 
 [rewrite_local]
-https://nicegram.cloud/api/v6/user/info url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Nicegram.js
+https://nicegram.cloud/api/v6/user/info url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Nicegram.js
 
 [mitm] 
 hostname = nicegram.cloud

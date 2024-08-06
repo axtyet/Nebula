@@ -11,7 +11,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.whalean\.com\/(poseidon-service\/api\/user|member\/userMemberHomePageV2|hestia-service\/api\/wpUser\/getUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/yaowangbohe.js
+^https?:\/\/.*\.whalean\.com\/(poseidon-service\/api\/user|member\/userMemberHomePageV2|hestia-service\/api\/wpUser\/getUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/yaowangbohe.js
 
 [mitm]
 hostname = *.whalean.com

@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api-search\.hulusaas\.com\/api\/user\/.* url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/hulushike.js
+^https?:\/\/api-search\.hulusaas\.com\/api\/user\/.* url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/hulushike.js
 
 [mitm]
 hostname = api-search.hulusaas.com

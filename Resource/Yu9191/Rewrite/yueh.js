@@ -22,7 +22,7 @@
 **************************************
 
 [rewrite_local]
-^http:\/\/yueh\.app168\.cc\/(first|panda|jiaopian|emoji|manghe)\/iap\/check\.php$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/yueh.js
+^http:\/\/yueh\.app168\.cc\/(first|panda|jiaopian|emoji|manghe)\/iap\/check\.php$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/yueh.js
 
 [mitm]
 hostname = yueh.app168.cc

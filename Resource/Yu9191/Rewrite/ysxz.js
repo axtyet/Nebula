@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-http://www.yunshangxiezuo.com/api/getAuthenticate_2 url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/ysxz.js
+http://www.yunshangxiezuo.com/api/getAuthenticate_2 url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/ysxz.js
 
 [mitm]
 hostname = www.yunshangxiezuo.com

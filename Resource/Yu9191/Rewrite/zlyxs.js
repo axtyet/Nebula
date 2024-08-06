@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-https://app.unitefactory.com/api/v2/column/columnInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/zlyxs.js
+https://app.unitefactory.com/api/v2/column/columnInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/zlyxs.js
 
 [mitm]
 hostname = app.unitefactory.com

@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 蛋啵解锁永久会员
-^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/MeiTuBabyVipCrack.js
+^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/MeiTuBabyVipCrack.js
 
 [mitm] 
 hostname = api-sub.meitu.com

@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-https?:\/\/zy6kcqa01a\.execute-api\.us-east-2\.amazonaws\.com\/prod\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/Hyperweb.js
+https?:\/\/zy6kcqa01a\.execute-api\.us-east-2\.amazonaws\.com\/prod\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/Hyperweb.js
 
 [mitm]
 hostname = zy6kcqa01a.execute-api.us-east-2.amazonaws.com

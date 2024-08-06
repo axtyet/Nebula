@@ -3,7 +3,7 @@
 句读：https://apps.apple.com/app/id1073431872
 
 [rewrite_local]
-^https?:\/\/judouapp\.com\/api\/v2\/mine\/profile url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/judou.js
+^https?:\/\/judouapp\.com\/api\/v2\/mine\/profile url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/judou.js
 
 [MITM]
 hostname = judouapp.com

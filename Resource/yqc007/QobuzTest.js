@@ -2,7 +2,7 @@
 
 [rewrite_local]
 # > Qobuz解锁设备限制测试
-^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/file\/url url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/QobuzTest.js
+^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/file\/url url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/QobuzTest.js
 
 [mitm] 
 hostname = www.qobuz.com

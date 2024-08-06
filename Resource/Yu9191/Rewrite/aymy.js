@@ -3,7 +3,7 @@
 解锁会员权益
 [rewrite_local]
 #课程题库
-https://www.aiyamanya.com/aymy/api/getUserInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/aymy.js
+https://www.aiyamanya.com/aymy/api/getUserInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/aymy.js
 
 [mitm] 
 

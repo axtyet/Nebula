@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 过期啦解锁永久订阅
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/).+ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/OopsExpiredProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/).+ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/OopsExpiredProCrack.js
 
 [mitm] 
 hostname = api.revenuecat.com

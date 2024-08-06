@@ -4,7 +4,7 @@
 [rewrite_local]
 
 
-https:\/\/api\.dayuclass\.com\/api\/v2\/(course|member\/detail) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/dydsk.js
+https:\/\/api\.dayuclass\.com\/api\/v2\/(course|member\/detail) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/dydsk.js
 
 [mitm] 
 

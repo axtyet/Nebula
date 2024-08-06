@@ -3,7 +3,7 @@
 CountThis：https://apps.apple.com/app/id1553863458
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/CountThis.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/CountThis.js
 
 [MITM]
 hostname = buy.itunes.apple.com

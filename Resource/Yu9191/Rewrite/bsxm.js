@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-http://yyy.bosum.com/enterprise/A00294/yqy-course/phone/courseLine/line/getCourseDetailsInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/bsxm.js
+http://yyy.bosum.com/enterprise/A00294/yqy-course/phone/courseLine/line/getCourseDetailsInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/bsxm.js
 
 [mitm]
 hostname = yyy.bosum.com

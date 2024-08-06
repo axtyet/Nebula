@@ -4,7 +4,7 @@ mondly
 [rewrite_local]
 
 
-^https:\/\/api\.mondlylanguages\.com\/v3\/ios\/user\/sync url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/mondly.js
+^https:\/\/api\.mondlylanguages\.com\/v3\/ios\/user\/sync url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/mondly.js
 
 [mitm] 
 

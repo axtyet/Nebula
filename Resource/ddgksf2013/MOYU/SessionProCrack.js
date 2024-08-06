@@ -17,7 +17,7 @@
 [rewrite_local]
   
 # > Session☆解锁会员权限（2024-02-24）@ddgksf2013
-^https:\/\/api\.stayinsession\.com\/user\/detail url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/MOYU/SessionProCrack.js
+^https:\/\/api\.stayinsession\.com\/user\/detail url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/MOYU/SessionProCrack.js
 (^https:\/\/api\.stayinsession\.com\/\?token=.*?&)(is_setapp\=false) url 302 $1is_setapp=true
 ^https:\/\/api\.stayinsession\.com\/user\/detail url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1If-None-Match:$2
 

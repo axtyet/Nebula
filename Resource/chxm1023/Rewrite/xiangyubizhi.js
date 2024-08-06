@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(?:sdk\.)?xiangyubizhi\.com\/(v\d\/front|notify\/ios) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/xiangyubizhi.js
+^https?:\/\/(?:sdk\.)?xiangyubizhi\.com\/(v\d\/front|notify\/ios) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/xiangyubizhi.js
 
 [mitm]
 hostname = sdk.xiangyubizhi.com, xiangyubizhi.com

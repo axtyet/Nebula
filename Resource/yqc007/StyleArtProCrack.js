@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > Style Art解锁永久会员
-^https?:\/\/api-aidraw\.3dmoxiu\.com\/v4\/aidraw\/user\/userInfo\/getUserInfoByToken$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/StyleArtProCrack.js
+^https?:\/\/api-aidraw\.3dmoxiu\.com\/v4\/aidraw\/user\/userInfo\/getUserInfoByToken$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/StyleArtProCrack.js
 
 [mitm] 
 hostname = api-aidraw.3dmoxiu.com

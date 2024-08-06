@@ -32,13 +32,13 @@
 
 [rewrite_local]
 #修改
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Revenuecat.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Revenuecat.js
 #清理
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Revenuecat.js
-
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Revenuecat.js
+https://api.lianjiu.fun/app/api/v1/profile url reject
 
 [mitm] 
-hostname = api.revenuecat.com
+hostname = api.revenuecat.com, api.lianjiu.fun
 
 ************************************/
 
@@ -63,6 +63,13 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = '1';
   const UAMappings = {
+    'becoming':{ name: 'Strength Pro', id: 'strength_membership_monthly'},//练就
+    'Chords':{ name: 'FullUnlock', id: 'cas_full_unlock_yearly_50_off'},//8.1
+    'reader':{ name: 'subscriptions', id: 'com.valo.reader.vip1.forever'},
+    'Gradient':{ name: 'unlimited', id: 'com.tickettothemoon.gradient.unlimited.yearly.small'},//7.23
+    'Python3IDE':{ name: 'pro', id: 'python3ide_six_month'},//7.14
+    'Scale%20Finder':{ name: 'Pro', id: 'sf_2999_1y_1w0'},//7.14
+    'Who%20Stalks':{ name: 'Premium', id: 'ws_999_1m'},//7.14
     'PrevisShot':{ name: 'VIP', id: 'com.previsshot.previsshot.continuous_subscribe_12month_vip'},//7.9
     'Super%20AI%20Chat':{ name: 'premium', id: 'chatbot_v4_1999_1y'},
     'MusicPutty':{ name: 'pro_version', id: 'mp_3599_1y'},//6.24

@@ -2,9 +2,10 @@
 #!desc = 过滤微博广告及去除各部分推广模块
 #!openUrl = https://apps.apple.com/app/id350962117
 #!author = RuCu6 zmqcherish
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!keyword = 去广告, RuCu6, zmqcherish
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/blob/master/README.md
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Weibo.png
-#!date = 2024-04-13 19:05:47
+#!date = 2024-08-02 23:00:56
 
 [Rule]
 # 请求放行
@@ -67,7 +68,7 @@ http-response ^https:\/\/api\.weibo\.cn\/2\/search\/(container_timeline|finder)\
 http-response ^https:\/\/api\.weibo\.cn\/2\/searchall\? script-path = https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body = true, tag = 移除发现页广告
 
 # 开屏广告 //*.uve.weibo.com
-http-response ^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload script-path = https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body = true, tag = 移除开屏广告
+http-response ^https:\/\/bootpreload\.uve\.weibo\.com\/v[12]\/ad\/preload script-path = https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body = true, tag = 移除开屏广告
 http-response ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php script-path = https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body = true, tag = 移除开屏广告
 http-response ^https:\/\/wbapp\.uve\.weibo\.com\/(preload\/get_ad|wbapplua\/wbpullad\.lua)\? script-path = https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body = true, tag = 移除开屏广告
 

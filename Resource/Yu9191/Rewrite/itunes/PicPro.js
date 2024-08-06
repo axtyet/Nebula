@@ -4,7 +4,7 @@ PicPro 3.1.8
 
 [rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/itunes/PicPro.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/itunes/PicPro.js
 
 [mitm] 
 

@@ -3,7 +3,7 @@
 POKPOK
 
 [rewrite_local]
-https://playpokpok.com/backstage/verify/receipt.php url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/pokpok.js
+https://playpokpok.com/backstage/verify/receipt.php url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/pokpok.js
 
 [mitm]
 hostname = playpokpok.com

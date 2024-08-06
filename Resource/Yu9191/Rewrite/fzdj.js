@@ -3,7 +3,7 @@
 解锁会员 解锁神剧
 
 [rewrite_local]
-https:\/\/slb\.weilianmenggz\.cn\/api\/(theater\/without\/group\/index|user\/info) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/fzdj.js
+https:\/\/slb\.weilianmenggz\.cn\/api\/(theater\/without\/group\/index|user\/info) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/fzdj.js
 
 [mitm] 
 

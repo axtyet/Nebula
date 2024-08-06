@@ -7,7 +7,7 @@
 **************************************
 
 [rewrite_local]
-https://jk.dmzgame.com/users/info url script-echo-response https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/sanzhanzhan.js
+https://jk.dmzgame.com/users/info url script-echo-response https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/sanzhanzhan.js
 
 
 [mitm]

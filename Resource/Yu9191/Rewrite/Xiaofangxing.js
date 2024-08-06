@@ -5,7 +5,7 @@
 *******************
 
 [rewrite_local]
-https://www.xfx119.com/ksVRExamSystem/validityTerm? url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Xiaofangxing.js
+https://www.xfx119.com/ksVRExamSystem/validityTerm? url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/Xiaofangxing.js
 
 
 

@@ -3,7 +3,7 @@
 ‎ProKnockout：https://apps.apple.com/app/id944665061
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Guding88/Script/ProKnockout.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Guding88/Script/ProKnockout.js
 
 [MITM]
 hostname = buy.itunes.apple.com

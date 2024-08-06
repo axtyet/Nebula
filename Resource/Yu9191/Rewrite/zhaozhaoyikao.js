@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-https://api.yikao88.com/api-shop/course/app/v5/selectDetail url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/zhaozhaoyikao.js
+https://api.yikao88.com/api-shop/course/app/v5/selectDetail url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/zhaozhaoyikao.js
 
 [mitm]
 hostname = api.yikao88.com

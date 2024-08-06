@@ -42,9 +42,9 @@ const uBOL_setCookie = function() {
 
 const scriptletGlobals = {}; // jshint ignore: line
 
-const argsList = [["cp_style_3841","true"],["m6e-newsletter","1"],["awpopup_501941328","1"],["popup_closed","true"],["SuppressInterstitial","true","","reload","1"],["exit-intent","true"],["marketing-modal-closed-1","2"],["hidePopUp","true"],["newsletter","true"],["isNewsletterPopupShown","false","","reload","1"],["mailerlite:forms:shown:109925949413262377","1"],["MCPopupClosed","yes"],["welcome_modal_email_ts","1"],["newsletter-newsletter-popup","true"],["mystery_popup","true"],["sws-gwpop","1"],["popup-newsletter","true"],["sabl","1"],["logged_in","1","","reload","1"],["ezgwcc","1"]];
+const argsList = [["cp_style_3841","true"],["m6e-newsletter","1"],["awpopup_501941328","1"],["popup_closed","true"],["SuppressInterstitial","true","","reload","1"],["exit-intent","true"],["marketing-modal-closed-1","2"],["hidePopUp","true"],["newsletter","true"],["isNewsletterPopupShown","false","","reload","1"],["mailerlite:forms:shown:109925949413262377","1"],["client-mailingListModalShown","true"],["jetpack_post_subscribe_modal_dismissed","true"],["MCPopupClosed","yes"],["welcome_modal_email_ts","1"],["newsletter-newsletter-popup","true"],["mystery_popup","true"],["sws-gwpop","1"],["popup-newsletter","true"],["sabl","1"],["logged_in","1","","reload","1"],["ezgwcc","1"]];
 
-const hostnamesMap = new Map([["breachmedia.ca",0],["artribune.com",1],["oled-info.com",2],["readergrev.com",3],["gourmetfoodstore.com",4],["railsnotes.xyz",5],["theinformation.com",6],["kermitlynch.com",7],["jingdaily.com",8],["babiesrus.ca",9],["toysrus.ca",9],["clevercreations.org",10],["yvonnebennetti.com",11],["funko.com",12],["loungefly.com",12],["saucerco.com",13],["sharperimage.com",14],["sweetwater.com",15],["assos.com",16],["techonthenet.com",17],["tumblr.com",18],["scitechdaily.com",19]]);
+const hostnamesMap = new Map([["breachmedia.ca",0],["artribune.com",1],["oled-info.com",2],["readergrev.com",3],["gourmetfoodstore.com",4],["railsnotes.xyz",5],["theinformation.com",6],["kermitlynch.com",7],["jingdaily.com",8],["babiesrus.ca",9],["toysrus.ca",9],["clevercreations.org",10],["iconduck.com",11],["shojiwax.com",12],["skepticalraptor.com",12],["yvonnebennetti.com",13],["funko.com",14],["loungefly.com",14],["saucerco.com",15],["sharperimage.com",16],["sweetwater.com",17],["assos.com",18],["techonthenet.com",19],["tumblr.com",20],["scitechdaily.com",21]]);
 
 const entitiesMap = new Map([]);
 
@@ -75,6 +75,8 @@ function setCookie(
         'necessary', 'required',
         'approved', 'disapproved',
         'hide', 'hidden',
+        'essential', 'nonessential',
+        'dismiss', 'dismissed',
     ];
     const normalized = value.toLowerCase();
     const match = /^("?)(.+)\1$/.exec(normalized);
@@ -115,12 +117,14 @@ function safeSelf() {
         'Math_random': Math.random,
         'Object': Object,
         'Object_defineProperty': Object.defineProperty.bind(Object),
+        'Object_defineProperties': Object.defineProperties.bind(Object),
         'Object_fromEntries': Object.fromEntries.bind(Object),
         'Object_getOwnPropertyDescriptor': Object.getOwnPropertyDescriptor.bind(Object),
         'RegExp': self.RegExp,
         'RegExp_test': self.RegExp.prototype.test,
         'RegExp_exec': self.RegExp.prototype.exec,
         'Request_clone': self.Request.prototype.clone,
+        'String_fromCharCode': String.fromCharCode,
         'XMLHttpRequest': self.XMLHttpRequest,
         'addEventListener': self.EventTarget.prototype.addEventListener,
         'removeEventListener': self.EventTarget.prototype.removeEventListener,

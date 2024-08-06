@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # > FIMO解锁全部胶卷
-^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/FiMoCameraProCrack.js
+^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/FiMoCameraProCrack.js
 
 [mitm] 
 

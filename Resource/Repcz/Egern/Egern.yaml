@@ -4,9 +4,9 @@
 # TG:https://t.me/QVQ_Channel
 # 以 ';' 或 '#' 或 '//' 开头的配置文件行为注释行
 #
-# Egern Version ≥ 1.16.0
+# Egern Version ≥ 1.21.0
 #
-# 最后更新时间: 2024-07-05 18:10
+# 最后更新时间: 2024-07-31 19:40
 #
 # ================
 
@@ -20,22 +20,34 @@ hijack_dns:
 # 自定义MaxMind数据库
 geoip_db_url: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
-# 配置为一个 DNS 服务器地址的数组，这些地址可以是 IPv4 或 IPv6 地址，也可以是 "system" 来使用系统 DNS 服务器。
-dns_servers:  # DNS服务器
-- 119.29.29.29
-- 233.5.5.5
-
-
-# Egern 将仅使用 dns_servers 中的 DNS 服务器来解析 SecureDns 中 servers 字段的域名。
-# 所有其他 DNS 查询将通过 SecureDns 中配置的安全 DNS 服务器进行。
-secure_dns:   # 安全的DNS
-  servers:    # 支持 DoH（以 https:// 开头）、DoT（以 tls:// 开头）和 DoQ（以 quic:// 开头）
-  - quic://223.5.5.5
-  - quic://223.6.6.6
-  - https://1.12.12.12/dns-query
-  - https://120.53.53.53/dns-query
-  ecs: false  # 是否启用 EDNS 客户端子网 (ECS)
-  public_ip_lookup_url: ''      # 公网 IP 查找 URL。这个 URL 必须返回设备的公网 IP 地址。
+dns:
+  # DNS 引导器：用于解析上游DNS(DoT、DoH、DoQ)，默认 system
+  bootstrap:
+    - system
+  # 上游 DNS 服务器
+  upstreams:
+    # 国内公共加密 DNS
+    Domestic-Encrypted-DNS:
+    - quic://dns.alidns.com
+    - https://doh.pub/dns-query
+    # 国外公共加密 DNS (不推荐，自行启用)
+    Foreign-Encrypted-DNS:
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+  # DNS 转发规则
+  forward:
+  - wildcard: # 通配符规则
+      match: '*'
+      value: Domestic-Encrypted-DNS
+  # 域名映射
+  hosts:
+    dns.google: 8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844 # https://dns.google/dns-query
+    cloudflare-dns.com: 104.16.249.249, 104.16.248.249, 2606:4700::6810:f8f9, 2606:4700::6810:f9f9 # https://cloudflare-dns.com/dns-query
+    dns.alidns.com: 223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1 3 # https://dns.alidns.com/dns-query
+    doh.pub: 1.12.12.12, 120.53.53.53 # https://doh.pub/dns-query
+    dot.pub: 1.12.12.12, 120.53.53.53 # dot.pub:853
+  # 公网 IP 地址查询
+  public_ip_lookup_url: https://ifconfig.me/ip
 
 policy_groups:
 - external:
@@ -183,6 +195,9 @@ policy_groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
 
 rules:
+- rule_set:
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Direct.yaml
+    policy: DIRECT
 - rule_set:
     match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Reject.yaml
     policy: REJECT

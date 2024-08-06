@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.bindapp\.cn\/locate\/get\/other-side\/position url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/bind.js
+^https?:\/\/api\.bindapp\.cn\/locate\/get\/other-side\/position url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/bind.js
 
 [mitm]
 hostname = api.bindapp.cn

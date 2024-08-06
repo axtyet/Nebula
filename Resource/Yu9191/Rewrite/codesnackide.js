@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-https://api.cs-ide.io/purchases/active url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/codesnackide.js
+https://api.cs-ide.io/purchases/active url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/codesnackide.js
 
 [mitm] 
 

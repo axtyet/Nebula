@@ -3,7 +3,7 @@
 阅己
 
 [rewrite_local]
-https://great.starsdsea.com:12502/zx/home/user/info url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/yueji.js
+https://great.starsdsea.com:12502/zx/home/user/info url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/yueji.js
 
 [mitm] 
 

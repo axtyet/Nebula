@@ -10,7 +10,7 @@
 * ==/UserScript==
 
 [task_local]
-0 9 * * * https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/ddgksf2013/Scripts/60s.js, tag=每天60s读懂世界
+0 9 * * * https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/ddgksf2013/Scripts/60s.js, tag=每天60s读懂世界
 
 */
 

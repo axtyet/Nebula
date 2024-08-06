@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api-qsy\.iiitool\.com\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/kuaisushuiyin.js
+^https?:\/\/api-qsy\.iiitool\.com\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/kuaisushuiyin.js
 
 [mitm]
 hostname = api-qsy.iiitool.com

@@ -6,7 +6,7 @@ DuetAir 1.2.12
 
 [rewrite_local]
 
-https://rdp.duetdisplay.com/v1/users/validateReceipt url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/DuetDisplay.js
+https://rdp.duetdisplay.com/v1/users/validateReceipt url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/DuetDisplay.js
 
 [mitm]
 hostname = rdp.duetdisplay.com

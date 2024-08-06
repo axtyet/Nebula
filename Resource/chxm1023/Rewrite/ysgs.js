@@ -12,7 +12,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/apps-api\.(lianaishouce|lingege)\.cn\/user\/(public\/login.*|getUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/ysgs.js
+^https?:\/\/apps-api\.(lianaishouce|lingege)\.cn\/user\/(public\/login.*|getUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/ysgs.js
 
 [mitm]
 hostname = apps-api.lianaishouce.cn, apps-api.lingege.cn

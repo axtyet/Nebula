@@ -7,7 +7,7 @@ Script author: @chxm1023
 特别说明：需要登录 这个js不能用就用https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes/xiaozujianhezi.js
 
 [rewrite_local]
-^https:\/\/api\.widgetbox\.top\/v1\/users\/me url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/xzj.js
+^https:\/\/api\.widgetbox\.top\/v1\/users\/me url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/xzj.js
 [mitm]
 
 hostname = api.widgetbox.top

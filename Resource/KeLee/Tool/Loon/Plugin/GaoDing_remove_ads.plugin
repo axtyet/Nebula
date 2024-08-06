@@ -1,10 +1,11 @@
 #!name = 稿定设计去广告
-#!desc = 移除稿定设计开屏广告、首页轮播图和弹窗。
+#!desc = 移除稿定设计开屏广告、首页轮播图和弹窗，移除功能入口角标。
 #!openUrl = https://apps.apple.com/app/id1113276760
 #!author = 可莉🅥
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!keyword = 去广告, 可莉
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/blob/master/README.md
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/GaoDing.png
-#!date = 2024-07-07 01:19:49
+#!date = 2024-08-05 11:35:41
 
 [Rewrite]
 # 开屏广告
@@ -14,13 +15,16 @@
 ^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/delivery-pits\/(template|mine|home)-page-dialog\/modules$ reject-dict
 
 # 搜索栏填充词
-^https:\/\/www\.gaoding\.com\/api\/v3\/cp\/search-words\/v2\/placeholder reject-dict
+^https:\/\/www\.gaoding\.com\/api\/v\d\/cp\/search-words\/v2\/placeholder reject-dict
 
-[Script]
 # 移除首页轮播图
-http-response ^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/template\/resources$ script-path = https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/KeLee/Resource/Script/GaoDing/GaoDing_remove_ads.js, requires-body = true, tag = 移除首页轮播图
+^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/template\/resources$ response-body-json-del pits[0].delivery_materials
+
 # 我的页面轮播图
-http-response ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/app_mine\/resources script-path = https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/KeLee/Resource/Script/GaoDing/GaoDing_remove_ads.js, requires-body = true, tag = 移除我的页面轮播图
+^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/app_mine\/resources$ response-body-json-del pits[2].delivery_materials
+
+# 移除功能入口角标
+^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/(templates|all_editor_tools)\/resources$ response-body-replace-regex "badge_img_url":".+", "badge_img_url":"",
 
 [Mitm]
 hostname = www.gaoding.com

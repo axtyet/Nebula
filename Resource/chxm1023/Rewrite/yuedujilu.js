@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/app\.yidiansz\.com\/api\/v\d\/(app\/user\/info|banner) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/yuedujilu.js
+^https?:\/\/app\.yidiansz\.com\/api\/v\d\/(app\/user\/info|banner) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/yuedujilu.js
 
 [mitm]
 hostname = app.yidiansz.com

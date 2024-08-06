@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.jitizhong\.com url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/tizhongxiaoben.js
+^https:\/\/api\.jitizhong\.com url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/tizhongxiaoben.js
 
 [mitm]
 hostname = api.jitizhong.com

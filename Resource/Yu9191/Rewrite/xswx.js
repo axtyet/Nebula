@@ -5,7 +5,7 @@
 
 [rewrite_local]
 #课程题库
-https:\/\/api\.xinxuejy\.com\/api\/(course\/detail|package\/liveDetail|know\/index|paper\/index|search\/getList|search\/getLibraryById|index\/banner\/type\/app_mall|user\/myInfo) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/xswx.js
+https:\/\/api\.xinxuejy\.com\/api\/(course\/detail|package\/liveDetail|know\/index|paper\/index|search\/getList|search\/getLibraryById|index\/banner\/type\/app_mall|user\/myInfo) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/xswx.js
 #欢迎加入叮当猫频道
 https://www31c1.53kf.com/m.php url 302 https://t.me/chxm1023
 

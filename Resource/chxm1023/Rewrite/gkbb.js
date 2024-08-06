@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-http:\/\/api\.chuangqi\.store\/ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/gkbb.js
+http:\/\/api\.chuangqi\.store\/ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/gkbb.js
 
 [mitm]
 hostname = api.chuangqi.store

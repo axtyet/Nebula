@@ -5,9 +5,9 @@
 建议放本地使用 随时跑路
 [rewrite_local]
 #surge
-https:\/\/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\/iphone url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/fenbi.js
+https:\/\/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\/iphone url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/fenbi.js
 #qx
-^https?:\/\/[kt]iku?\.fenbi\.com\/iphone\/ url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/fenbi.js
+^https?:\/\/[kt]iku?\.fenbi\.com\/iphone\/ url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/fenbi.js
 [mitm] 
 
 hostname = 123.206.1.227, 39.105.140.127,

@@ -5,7 +5,7 @@ VIP音乐试听权限+
 不会变身会员,可以直接听会员歌曲！无法调高音质！
 [rewrite_local]
 # > 网易云解锁VIP
-^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/wangyy.js
+^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/wangyy.js
 
 [mitm] 
 hostname = *.music.163.com

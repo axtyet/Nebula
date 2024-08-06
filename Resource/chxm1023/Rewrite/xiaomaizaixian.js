@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/www\.xiaomaigongkao\.com\/AppApi\/(vip|StartPage\/welcome|Member\/indexHangingWindow|Course\/(curriculum|details)) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/xiaomaizaixian.js
+^https?:\/\/www\.xiaomaigongkao\.com\/AppApi\/(vip|StartPage\/welcome|Member\/indexHangingWindow|Course\/(curriculum|details)) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/xiaomaizaixian.js
 
 [mitm]
 hostname = www.xiaomaigongkao.com

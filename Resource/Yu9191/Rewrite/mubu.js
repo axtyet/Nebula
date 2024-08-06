@@ -3,7 +3,7 @@
 终身会员
 
 [rewrite_local]
-https://api2.mubu.com/v3/api/user/current_user url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/mubu.js
+https://api2.mubu.com/v3/api/user/current_user url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/mubu.js
 
 [mitm] 
 hostname = api2.mubu.com

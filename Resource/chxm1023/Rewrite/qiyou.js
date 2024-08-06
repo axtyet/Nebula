@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.qiyou\.cn\/api\/common_bll\/v\d\/(member\/(login_status|mobile_expire_remind)|client_advertisements) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/qiyou.js
+^https?:\/\/api\.qiyou\.cn\/api\/common_bll\/v\d\/(member\/(login_status|mobile_expire_remind)|client_advertisements) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/qiyou.js
 
 
 [mitm]

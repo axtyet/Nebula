@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 手机硬件管家解锁永久高级版
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/MobileMonsterProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/MobileMonsterProCrack.js
 
 [mitm] 
 hostname = api.revenuecat.com

@@ -12,7 +12,7 @@
 
 [rewrite_local]
 # > 新语听书解锁永久会员
-^https?:\/\/i\.xinyulib\.com\.cn\/api\/querytoken.+ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/XinYuLibraryProCrack.js
+^https?:\/\/i\.xinyulib\.com\.cn\/api\/querytoken.+ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/XinYuLibraryProCrack.js
 
 [mitm] 
 hostname = i.xinyulib.com.cn

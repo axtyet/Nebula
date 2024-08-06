@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-http://xw.jietuguanjia.com/api/app/userInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/xiaowaiweishang.js
+http://xw.jietuguanjia.com/api/app/userInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/xiaowaiweishang.js
 
 [mitm] 
 

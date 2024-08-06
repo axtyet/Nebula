@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/tuner-api\.quthing\.com\/vip\/state url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/lytyq.js
+^https:\/\/tuner-api\.quthing\.com\/vip\/state url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/lytyq.js
 
 [mitm]
 hostname = tuner-api.quthing.com

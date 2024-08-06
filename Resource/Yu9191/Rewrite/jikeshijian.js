@@ -6,7 +6,7 @@
 [rewrite_local]
 
 
-https://time.geekbang.org/serv/v1 url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/jikeshijian.js
+https://time.geekbang.org/serv/v1 url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/jikeshijian.js
 
 [mitm] 
 

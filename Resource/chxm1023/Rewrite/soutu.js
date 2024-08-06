@@ -12,7 +12,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/soutu.js
+^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/soutu.js
 
 [mitm]
 hostname = *.soutushenqi.com

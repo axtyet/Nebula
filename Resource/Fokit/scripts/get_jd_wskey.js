@@ -1,6 +1,6 @@
 /*
 脚本名称：京东 WSKEY
-更新时间：2024-05-27
+更新时间：2024/07/27
 使用方法：划掉后台重新打开 京东APP 即可自动抓取 WSKEY。抓完 WSKEY 不能在京东 app 点退出登录（会导致 WSKEY 失效），切换账号的正确姿势是先断网（飞行模式）再点击退出登录，划掉后台重新打开 APP 再登录新的账号。
 注意事项：脚本抓取的 WSKEY 默认自动提交到服务器（自动上车），可通过 BoxJs 设置关闭自动提交功能。
 重写订阅：https://raw.githubusercontent.com/FoKit/Scripts/main/rewrite/get_jd_wskey.sgmodule
@@ -9,9 +9,9 @@ BoxJs订阅：https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.b
 ------------------ Surge 配置 ------------------
 
 [Script]
-京东 WSKEY = type=http-request,pattern=https:\/\/blackhole\.m\.jd\.com\/getinfo,requires-body=0,max-size=0,binary-body-mode=0,timeout=30,script-path=https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Fokit/scripts/get_jd_wskey.js,script-update-interval=0
+京东 WSKEY = type=http-request,pattern=https:\/\/blackhole\.m\.jd\.com\/getinfo,requires-body=0,max-size=0,binary-body-mode=0,timeout=30,script-path=https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Fokit/scripts/get_jd_wskey.js,script-update-interval=0
 
-京东 PIN = type=http-request,pattern=https:\/\/perf\.m\.jd\.com\/app_monitor\/v2\/getRule,requires-body=0,max-size=0,binary-body-mode=0,timeout=30,script-path=https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Fokit/scripts/get_jd_wskey.js,script-update-interval=0
+京东 PIN = type=http-request,pattern=https:\/\/perf\.m\.jd\.com\/app_monitor\/\w{1,}\/getRule,requires-body=0,max-size=0,binary-body-mode=0,timeout=30,script-path=https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Fokit/scripts/get_jd_wskey.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% blackhole.m.jd.com, perf.m.jd.com
@@ -22,9 +22,9 @@ hostname = %APPEND% blackhole.m.jd.com, perf.m.jd.com
 hostname = blackhole.m.jd.com, perf.m.jd.com
 
 [Script]
-http-request https:\/\/blackhole\.m\.jd\.com\/getinfo tag=京东 WSKEY,script-path=https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Fokit/scripts/get_jd_wskey.js,requires-body=0
+http-request https:\/\/blackhole\.m\.jd\.com\/getinfo tag=京东 WSKEY,script-path=https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Fokit/scripts/get_jd_wskey.js,requires-body=0
 
-http-request https:\/\/perf\.m\.jd\.com\/app_monitor\/v2\/getRule tag=京东 PIN,script-path=https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Fokit/scripts/get_jd_wskey.js,requires-body=0
+http-request https:\/\/perf\.m\.jd\.com\/app_monitor\/\w{1,}\/getRule tag=京东 PIN,script-path=https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Fokit/scripts/get_jd_wskey.js,requires-body=0
 
 --------------- Quantumult X 配置 ---------------
 
@@ -33,9 +33,9 @@ hostname = blackhole.m.jd.com, perf.m.jd.com
 
 [rewrite_local]
 
-https:\/\/blackhole\.m\.jd\.com\/getinfo url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Fokit/scripts/get_jd_wskey.js
+https:\/\/blackhole\.m\.jd\.com\/getinfo url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Fokit/scripts/get_jd_wskey.js
 
-https:\/\/perf\.m\.jd\.com\/app_monitor\/v2\/getRule url script-request-header https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Fokit/scripts/get_jd_wskey.js
+https:\/\/perf\.m\.jd\.com\/app_monitor\/\w{1,}\/getRule url script-request-header https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Fokit/scripts/get_jd_wskey.js
 
 ------------------------------------------------
  */

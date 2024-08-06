@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 傲软抠图解锁会员
-^https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/BackgroundEraserProCrack.js
+^https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/BackgroundEraserProCrack.js
 
 [mitm] 
 

@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-http:\/\/new\.xslm333\.xyz\/api\/getUserInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/ssfyg.js
+http:\/\/new\.xslm333\.xyz\/api\/getUserInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/ssfyg.js
 
 [mitm]
 hostname = new.xslm333.xyz

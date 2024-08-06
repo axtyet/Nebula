@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.meiease\.cn\/shop\/subscription\/(validate|apple\/purchases) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/picsart.js
+^https?:\/\/api\.meiease\.cn\/shop\/subscription\/(validate|apple\/purchases) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/picsart.js
 
 [mitm]
 hostname = api.meiease.cn

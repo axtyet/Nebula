@@ -42,9 +42,9 @@ const uBOL_setConstant = function() {
 
 const scriptletGlobals = {}; // jshint ignore: line
 
-const argsList = [["_ads_zum_main_initbanner_750_zum_main_br_widget_336","true"],["list_end_run_read_top_boom","noopFunc"],["list_end_run_pds_notice_boom","noopFunc"],["list_end_run_comment_bottom_boom","noopFunc"],["list_end_run_center_boom","noopFunc"],["list_end_run_list_bottom_boom","noopFunc"],["list_end_run","noopFunc"],["Math.uuid","","","asFunction"],["jQuery.fn.getUrlParameter","","asFunction"],["window.__NEXT_DATA__.props.pageProps.initialState.post.adhistory","{}"],["$is.powerLink.loadPowerLink","noopFunc"],["SbsHtml5PlayerContainer.prototype.renderAdSequence","noopFunc"],["pum_vars","undefined"],["player.renderAdSequence","undefined"],["bannerpop.popup","noopFunc"],["admode","0"],["player.advertisement_finished","true"],["reple_dori","noopFunc"],["getAdcrUrl",""],["random_imglink","noopFunc"],["vrixadsdk","undefined"],["adsBlocked","noopFunc"],["detectAdBlock","noopFunc"],["DHAntiAdBlocker","true"],["checkAds","noopFunc"],["NAVER_ADPOST_V2","noopFunc"]];
+const argsList = [["_ads_zum_main_initbanner_750_zum_main_br_widget_336","true"],["list_end_run_read_top_boom","noopFunc"],["list_end_run_pds_notice_boom","noopFunc"],["list_end_run_comment_bottom_boom","noopFunc"],["list_end_run_center_boom","noopFunc"],["list_end_run_list_bottom_boom","noopFunc"],["list_end_run","noopFunc"],["Math.uuid","","","asFunction"],["jQuery.fn.getUrlParameter","","asFunction"],["window.__NEXT_DATA__.props.pageProps.initialState.post.adhistory","{}"],["$is.powerLink.loadPowerLink","noopFunc"],["SbsHtml5PlayerContainer.prototype.renderAdSequence","noopFunc"],["pum_vars","undefined"],["player.renderAdSequence","undefined"],["bannerpop.popup","noopFunc"],["admode","0"],["player.advertisement_finished","true"],["reple_dori","noopFunc"],["getAdcrUrl",""],["random_imglink","noopFunc"],["vrixadsdk","undefined"],["adsBlocked","noopFunc"],["DHAntiAdBlocker","true"],["checkAds","noopFunc"],["NAVER_ADPOST_V2","noopFunc"]];
 
-const hostnamesMap = new Map([["zum.com",0],["m.humoruniv.com",[1,2,3,4,5,6]],["hub.zum.com",7],["mememedia.co.kr",8],["humors.zigcou.com",9],["shopping.interpark.com",10],["sbs.co.kr",[11,13]],["fun-iyagi.co.kr",12],["timecoffee.co.kr",12],["333aaa.site",12],["domin.co.kr",14],["uwayapply.com",15],["tvchosun.com",16],["app.dcinside.com",17],["m.dcinside.com",17],["naver.com",18],["koreapas.com",19],["imbc.com",20],["meeco.kr",21],["klauncher.kr",22],["sogirl.so",23],["tistory.com",24],["sajuplus.net",24],["auto.danawa.com",25]]);
+const hostnamesMap = new Map([["zum.com",0],["m.humoruniv.com",[1,2,3,4,5,6]],["hub.zum.com",7],["mememedia.co.kr",8],["humors.zigcou.com",9],["shopping.interpark.com",10],["sbs.co.kr",[11,13]],["fun-iyagi.co.kr",12],["timecoffee.co.kr",12],["333aaa.site",12],["domin.co.kr",14],["uwayapply.com",15],["tvchosun.com",16],["app.dcinside.com",17],["m.dcinside.com",17],["naver.com",18],["koreapas.com",19],["imbc.com",20],["meeco.kr",21],["sogirl.so",22],["tistory.com",23],["sajuplus.net",23],["auto.danawa.com",24]]);
 
 const entitiesMap = new Map([]);
 
@@ -100,7 +100,7 @@ function setConstantFn(
         };
         if ( trappedProp === '' ) { return; }
         const thisScript = document.currentScript;
-        let normalValue = validateConstantFn(trusted, rawValue);
+        let normalValue = validateConstantFn(trusted, rawValue, extraArgs);
         if ( rawValue === 'noopFunc' || rawValue === 'trueFunc' || rawValue === 'falseFunc' ) {
             normalValue = cloakFunc(normalValue);
         }
@@ -253,12 +253,14 @@ function safeSelf() {
         'Math_random': Math.random,
         'Object': Object,
         'Object_defineProperty': Object.defineProperty.bind(Object),
+        'Object_defineProperties': Object.defineProperties.bind(Object),
         'Object_fromEntries': Object.fromEntries.bind(Object),
         'Object_getOwnPropertyDescriptor': Object.getOwnPropertyDescriptor.bind(Object),
         'RegExp': self.RegExp,
         'RegExp_test': self.RegExp.prototype.test,
         'RegExp_exec': self.RegExp.prototype.exec,
         'Request_clone': self.Request.prototype.clone,
+        'String_fromCharCode': String.fromCharCode,
         'XMLHttpRequest': self.XMLHttpRequest,
         'addEventListener': self.EventTarget.prototype.addEventListener,
         'removeEventListener': self.EventTarget.prototype.removeEventListener,
@@ -394,9 +396,8 @@ function safeSelf() {
     return safe;
 }
 
-function validateConstantFn(trusted, raw) {
+function validateConstantFn(trusted, raw, extraArgs = {}) {
     const safe = safeSelf();
-    const extraArgs = safe.getExtraArgs(Array.from(arguments), 2);
     let value;
     if ( raw === 'undefined' ) {
         value = undefined;

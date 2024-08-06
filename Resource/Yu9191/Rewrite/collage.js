@@ -2,7 +2,7 @@
 collage
 [rewrite_local]
 #VIP
-https:\/\/us-central1-project-\d+\.cloudfunctions\.net\/validateSubscription url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/collage.js
+https:\/\/us-central1-project-\d+\.cloudfunctions\.net\/validateSubscription url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/collage.js
 
 [mitm]
 hostname = us-central1-project-8581282516503352888.cloudfunctions.net

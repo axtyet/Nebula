@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/w\.5hzs\.com\/player\/index url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/tangguo.js
+^https?:\/\/w\.5hzs\.com\/player\/index url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/tangguo.js
 
 [mitm]
 hostname = w.5hzs.com

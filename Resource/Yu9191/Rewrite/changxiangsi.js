@@ -6,8 +6,8 @@ time:2023.10.8
 [rewrite_local]
 
 
-https://poetry.nanxiani.cn/api/User/loginUserInfo url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/changxiangsi.js
-^http[s]?:\/\/poetry.nanxiani.cn\/api\/study\/* url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/changxiangsi2.js
+https://poetry.nanxiani.cn/api/User/loginUserInfo url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/changxiangsi.js
+^http[s]?:\/\/poetry.nanxiani.cn\/api\/study\/* url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/changxiangsi2.js
 [mitm]
 hostname = poetry.nanxiani.cn
 

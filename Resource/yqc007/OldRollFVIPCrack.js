@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # > OldRoll解锁永久会员
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/yqc007/OldRollFVIPCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/yqc007/OldRollFVIPCrack.js
 
 [mitm] 
 

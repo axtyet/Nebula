@@ -3,7 +3,7 @@
 2023.12.28 
 [rewrite_local]
 #用户信息
-^https:\/\/www\.usacamp\.cn\/Api1_2\/(loginWithUserID|getGuideBanner) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/YMyy.js
+^https:\/\/www\.usacamp\.cn\/Api1_2\/(loginWithUserID|getGuideBanner) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/YMyy.js
 
 
 [mitm]

@@ -3,7 +3,7 @@ memrise
 
 [rewrite_local]
 
-^https:\/\/api\.memrise\.com url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/memrise.js
+^https:\/\/api\.memrise\.com url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/memrise.js
 
 [mitm] 
 

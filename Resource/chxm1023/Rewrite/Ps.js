@@ -11,7 +11,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/lcs-mobile-cops\.adobe\.io\/(mobile_profile|mobiles\/access_profile) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/Ps.js
+^https:\/\/lcs-mobile-cops\.adobe\.io\/(mobile_profile|mobiles\/access_profile) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/Ps.js
 
 [mitm]
 hostname = lcs-mobile-cops.adobe.io

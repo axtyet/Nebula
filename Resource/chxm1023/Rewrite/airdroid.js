@@ -11,7 +11,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(pay|id-cast)\.airdroid\.cn\/(cast\/getUserPaymentInfo|user\/getuserinfo) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/chxm1023/Rewrite/airdroid.js
+^https?:\/\/(pay|id-cast)\.airdroid\.cn\/(cast\/getUserPaymentInfo|user\/getuserinfo) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/chxm1023/Rewrite/airdroid.js
 
 [mitm]
 hostname = *.airdroid.cn

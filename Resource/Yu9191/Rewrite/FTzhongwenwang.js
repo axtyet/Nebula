@@ -8,7 +8,7 @@ FT中文网 外区
 ***********************
 
 [rewrite_local]
-^https:\/\/dqbam2jv6gg9m\.cloudfront\.net\/index\.php\/jsapi\/paywall url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/FTzhongwenwang.js
+^https:\/\/dqbam2jv6gg9m\.cloudfront\.net\/index\.php\/jsapi\/paywall url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/FTzhongwenwang.js
 [mitm] 
 hostname = dqbam2jv6gg9m.cloudfront.net
 

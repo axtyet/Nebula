@@ -3,7 +3,7 @@
 解锁会员 及全课程 资源
 [rewrite_local]
 
-https:\/\/app\.fhestudy\.com\/(collection\/getCatalogAndResource\.do|collection\/getVideoResource\.do|collection\/getTeachingOrCourseDetail\.do|system\/getCheckOutInfo\.do|textbooks\/getTextBookInCourse\.do|user\/getUserInfo\.do|home\/getHomeData\.do) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/fhyx.js
+https:\/\/app\.fhestudy\.com\/(collection\/getCatalogAndResource\.do|collection\/getVideoResource\.do|collection\/getTeachingOrCourseDetail\.do|system\/getCheckOutInfo\.do|textbooks\/getTextBookInCourse\.do|user\/getUserInfo\.do|home\/getHomeData\.do) url script-response-body https://raw.githubusercontent.com/axtyet/comet_scripts/main/Resource/Yu9191/Rewrite/fhyx.js
 
 [mitm] 
 
